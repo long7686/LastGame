@@ -1,953 +1,150 @@
-2021-05-20T10:36:37.186Z - normal: Load ~/.CocosCreator/settings.json
-2021-05-20T10:36:37.249Z - normal: Initializing Asset Database
-2021-05-20T10:36:37.251Z - normal: checking language setting...
-2021-05-20T10:36:37.251Z - normal: Language: en
-2021-05-20T10:36:37.782Z - success: preview server running at http://localhost:7456
-2021-05-20T10:36:37.797Z - success: protocol editor-framework registered
-2021-05-20T10:36:37.797Z - success: protocol app registered
-2021-05-20T10:36:37.797Z - success: protocol theme registered
-2021-05-20T10:36:37.797Z - success: protocol packages registered
-2021-05-20T10:36:37.798Z - success: protocol uuid registerred
-2021-05-20T10:36:37.798Z - success: protocol db registerred
-2021-05-20T10:36:37.798Z - success: protocol thumbnail registerred
-2021-05-20T10:36:37.798Z - success: protocol unpack registerred
-2021-05-20T10:36:37.798Z - success: protocol disable-commonjs registerred
-2021-05-20T10:36:38.198Z - normal: connected!
-2021-05-20T10:36:38.199Z - normal: Check project /Users/gemi/NewProject_9
-2021-05-20T10:36:38.201Z - normal: Initializing project /Users/gemi/NewProject_9
-2021-05-20T10:36:38.509Z - normal: Initializing Cocos2d
-2021-05-20T10:36:39.070Z - normal: Initializing engine extends
-2021-05-20T10:36:39.094Z - success: alipay-adapter loaded
-2021-05-20T10:36:39.104Z - success: asset-db-debugger loaded
-2021-05-20T10:36:39.109Z - success: baidu-adapter loaded
-2021-05-20T10:36:39.110Z - success: color-picker loaded
-2021-05-20T10:36:39.209Z - success: fb-audience-network loaded
-2021-05-20T10:36:39.242Z - success: fb-live-stream loaded
-2021-05-20T10:36:39.244Z - success: google-play-instant loaded
-2021-05-20T10:36:39.247Z - success: huawei-runtime loaded
-2021-05-20T10:36:39.411Z - success: cpk-publish loaded
-2021-05-20T10:36:39.412Z - success: jsb-adapter loaded
-2021-05-20T10:36:39.415Z - success: oppo-runtime loaded
-2021-05-20T10:36:39.419Z - success: package-manager loaded
-2021-05-20T10:36:39.497Z - success: qqplay-adapter loaded
-2021-05-20T10:36:39.498Z - success: runtime-dev-tools loaded
-2021-05-20T10:36:39.505Z - success: sdkbox loaded
-2021-05-20T10:36:39.508Z - success: tester loaded
-2021-05-20T10:36:39.511Z - success: ui-kit-preview-extra loaded
-2021-05-20T10:36:39.513Z - success: ui-kit-preview loaded
-2021-05-20T10:36:39.516Z - success: ui-kit loaded
-2021-05-20T10:36:39.520Z - success: vivo-runtime loaded
-2021-05-20T10:36:39.521Z - success: weapp-adapter loaded
-2021-05-20T10:36:39.522Z - success: xiaomi-adapter loaded
-2021-05-20T10:36:39.524Z - success: alipay-minigame loaded
-2021-05-20T10:36:39.571Z - success: assets loaded
-2021-05-20T10:36:39.574Z - success: builder loaded
-2021-05-20T10:36:39.755Z - success: cocos-services loaded
-2021-05-20T10:36:39.760Z - success: console loaded
-2021-05-20T10:36:39.791Z - success: fb-instant-games loaded
-2021-05-20T10:36:39.794Z - success: game-window loaded
-2021-05-20T10:36:39.795Z - success: google-instant-games loaded
-2021-05-20T10:36:39.799Z - success: hierarchy loaded
-2021-05-20T10:36:39.805Z - success: inspector loaded
-2021-05-20T10:36:39.806Z - success: keystore loaded
-2021-05-20T10:36:39.811Z - success: node-library loaded
-2021-05-20T10:36:39.812Z - success: package-asset loaded
-2021-05-20T10:36:39.813Z - success: preferences loaded
-2021-05-20T10:36:39.816Z - success: project-exporter loaded
-2021-05-20T10:36:39.820Z - success: project-importer loaded
-2021-05-20T10:36:39.823Z - success: project-settings loaded
-2021-05-20T10:36:39.828Z - success: scene loaded
-2021-05-20T10:36:39.830Z - success: simulator-debugger loaded
-2021-05-20T10:36:39.831Z - success: sprite-editor loaded
-2021-05-20T10:36:39.834Z - success: store loaded
-2021-05-20T10:36:39.842Z - success: timeline loaded
-2021-05-20T10:36:39.846Z - success: xiaomi-runtime loaded
-2021-05-20T10:36:40.736Z - normal: Loading packages
-2021-05-20T10:36:40.742Z - normal: Watching packages
-2021-05-20T10:36:40.855Z - normal: Run Application
-2021-05-20T10:36:43.334Z - info: Cocos Services load base data!
-2021-05-20T10:36:44.949Z - warn: The 'type' attribute of 'Level1._obj' is undefined when loading script
-2021-05-20T10:36:44.991Z - warn: Script attached to "BulletControl" in scene "Untitled.fire" is missing or invalid. Detailed information:
-Node path: "Canvas/Main Game/Player/BulletControl"
-Asset url: "db://assets/Untitled.fire"
-Script UUID: "aeacaa22-a956-4f28-9869-909469fe0ed2"
-Class ID: "aeacaoiqVZPKJhpkJRp/g7S"
-
-2021-05-20T10:36:44.992Z - warn: Script attached to "Player" in scene "Untitled.fire" is missing or invalid. Detailed information:
-Node path: "Canvas/Main Game/Player"
-Asset url: "db://assets/Untitled.fire"
-Script UUID: "d479cb7b-44e4-4934-8c71-1bcec892b8ab"
-Class ID: "d479ct7RORJNIxxG87Ikrir"
-
-2021-05-20T10:36:45.006Z - warn: Script attached to "BulletControl" in prefab "Player.prefab" is missing or invalid. Detailed information:
-Node path: "Player/BulletControl"
-Asset url: "db://assets/Prefebs/Player.prefab"
-Script UUID: "aeacaa22-a956-4f28-9869-909469fe0ed2"
-Class ID: "aeacaoiqVZPKJhpkJRp/g7S"
-
-2021-05-20T10:36:45.006Z - warn: Script attached to "Player" in prefab "Player.prefab" is missing or invalid. Detailed information:
-Node path: "Player"
-Asset url: "db://assets/Prefebs/Player.prefab"
-Script UUID: "d479cb7b-44e4-4934-8c71-1bcec892b8ab"
-Class ID: "d479ct7RORJNIxxG87Ikrir"
-
-2021-05-20T10:36:45.051Z - warn: The Asset used by component "cc.Sprite" in prefab "Player.prefab" is missing. Detailed information:
-Node path: "Player/Effect/LeftLight"
-Asset url: "db://assets/Prefebs/Player.prefab"
-Missing uuid: "5e551261-00e5-40e2-85f8-078c91d2b2cd"
-
-2021-05-20T10:36:45.051Z - warn: The Asset used by node "LeftLight" in prefab "Player.prefab" is missing. Detailed information:
-Node path: "Player/Effect/LeftLight"
-Asset url: "db://assets/Prefebs/Player.prefab"
-Missing uuid: "63bf5ace-9f8c-4110-90cd-f178252e8ae9"
-
-2021-05-20T10:36:45.052Z - warn: The Asset used by component "cc.Sprite" in prefab "Player.prefab" is missing. Detailed information:
-Node path: "Player/Effect/RightLight"
-Asset url: "db://assets/Prefebs/Player.prefab"
-Missing uuid: "5e551261-00e5-40e2-85f8-078c91d2b2cd"
-
-2021-05-20T10:36:45.052Z - warn: The Asset used by node "RightLight" in prefab "Player.prefab" is missing. Detailed information:
-Node path: "Player/Effect/RightLight"
-Asset url: "db://assets/Prefebs/Player.prefab"
-Missing uuid: "63bf5ace-9f8c-4110-90cd-f178252e8ae9"
-
-2021-05-20T10:36:45.052Z - warn: The Asset used by node "Effect" in prefab "Player.prefab" is missing. Detailed information:
-Node path: "Player/Effect"
-Asset url: "db://assets/Prefebs/Player.prefab"
-Missing uuid: "63bf5ace-9f8c-4110-90cd-f178252e8ae9"
-
-2021-05-20T10:36:45.052Z - warn: The Asset used by component "cc.MissingScript" in prefab "Player.prefab" is missing. Detailed information:
-Node path: "Player/BulletControl"
-Asset url: "db://assets/Prefebs/Player.prefab"
-Missing uuid: "289e7efe-2fab-40fc-9029-41df474eccd9"
-
-2021-05-20T10:36:45.053Z - warn: The Asset used by component "cc.MissingScript" in prefab "Player.prefab" is missing. Detailed information:
-Node path: "Player/BulletControl"
-Asset url: "db://assets/Prefebs/Player.prefab"
-Missing uuid: "cb82bc99-32cf-4e59-97c2-92186e4eefdd"
-
-2021-05-20T10:36:45.053Z - warn: The Asset used by component "cc.MissingScript" in prefab "Player.prefab" is missing. Detailed information:
-Node path: "Player/BulletControl"
-Asset url: "db://assets/Prefebs/Player.prefab"
-Missing uuid: "44782181-b391-4da7-be0a-36121575f0a7"
-
-2021-05-20T10:36:45.053Z - warn: The Asset used by component "cc.MissingScript" in prefab "Player.prefab" is missing. Detailed information:
-Node path: "Player/BulletControl"
-Asset url: "db://assets/Prefebs/Player.prefab"
-Missing uuid: "02e55e15-d528-4986-af81-2b585f3b7b5f"
-
-2021-05-20T10:36:45.053Z - warn: The Asset used by node "BulletControl" in prefab "Player.prefab" is missing. Detailed information:
-Node path: "Player/BulletControl"
-Asset url: "db://assets/Prefebs/Player.prefab"
-Missing uuid: "63bf5ace-9f8c-4110-90cd-f178252e8ae9"
-
-2021-05-20T10:36:45.055Z - warn: The Asset used by node "Player" in prefab "Player.prefab" is missing. Detailed information:
-Node path: "Player"
-Asset url: "db://assets/Prefebs/Player.prefab"
-Missing uuid: "63bf5ace-9f8c-4110-90cd-f178252e8ae9"
-
-2021-05-20T10:38:38.639Z - warn: Script attached to "BulletControl" in prefab "Player.prefab" is missing or invalid. Detailed information:
-Node path: "Player/BulletControl"
-Asset url: "db://assets/Prefebs/Player.prefab"
-Script UUID: "aeacaa22-a956-4f28-9869-909469fe0ed2"
-Class ID: "aeacaoiqVZPKJhpkJRp/g7S"
-
-2021-05-20T10:38:38.641Z - warn: Script attached to "Player" in prefab "Player.prefab" is missing or invalid. Detailed information:
-Node path: "Player"
-Asset url: "db://assets/Prefebs/Player.prefab"
-Script UUID: "d479cb7b-44e4-4934-8c71-1bcec892b8ab"
-Class ID: "d479ct7RORJNIxxG87Ikrir"
-
-2021-05-20T10:38:38.688Z - warn: The Asset used by component "cc.Sprite" in prefab "Player.prefab" is missing. Detailed information:
-Node path: "Player/Effect/LeftLight"
-Asset url: "db://assets/Prefebs/Player.prefab"
-Missing uuid: "5e551261-00e5-40e2-85f8-078c91d2b2cd"
-
-2021-05-20T10:38:38.689Z - warn: The Asset used by node "LeftLight" in prefab "Player.prefab" is missing. Detailed information:
-Node path: "Player/Effect/LeftLight"
-Asset url: "db://assets/Prefebs/Player.prefab"
-Missing uuid: "63bf5ace-9f8c-4110-90cd-f178252e8ae9"
-
-2021-05-20T10:38:38.689Z - warn: The Asset used by component "cc.Sprite" in prefab "Player.prefab" is missing. Detailed information:
-Node path: "Player/Effect/RightLight"
-Asset url: "db://assets/Prefebs/Player.prefab"
-Missing uuid: "5e551261-00e5-40e2-85f8-078c91d2b2cd"
-
-2021-05-20T10:38:38.689Z - warn: The Asset used by node "RightLight" in prefab "Player.prefab" is missing. Detailed information:
-Node path: "Player/Effect/RightLight"
-Asset url: "db://assets/Prefebs/Player.prefab"
-Missing uuid: "63bf5ace-9f8c-4110-90cd-f178252e8ae9"
-
-2021-05-20T10:38:38.689Z - warn: The Asset used by node "Effect" in prefab "Player.prefab" is missing. Detailed information:
-Node path: "Player/Effect"
-Asset url: "db://assets/Prefebs/Player.prefab"
-Missing uuid: "63bf5ace-9f8c-4110-90cd-f178252e8ae9"
-
-2021-05-20T10:38:38.689Z - warn: The Asset used by component "cc.MissingScript" in prefab "Player.prefab" is missing. Detailed information:
-Node path: "Player/BulletControl"
-Asset url: "db://assets/Prefebs/Player.prefab"
-Missing uuid: "289e7efe-2fab-40fc-9029-41df474eccd9"
-
-2021-05-20T10:38:38.690Z - warn: The Asset used by component "cc.MissingScript" in prefab "Player.prefab" is missing. Detailed information:
-Node path: "Player/BulletControl"
-Asset url: "db://assets/Prefebs/Player.prefab"
-Missing uuid: "cb82bc99-32cf-4e59-97c2-92186e4eefdd"
-
-2021-05-20T10:38:38.690Z - warn: The Asset used by component "cc.MissingScript" in prefab "Player.prefab" is missing. Detailed information:
-Node path: "Player/BulletControl"
-Asset url: "db://assets/Prefebs/Player.prefab"
-Missing uuid: "44782181-b391-4da7-be0a-36121575f0a7"
-
-2021-05-20T10:38:38.690Z - warn: The Asset used by component "cc.MissingScript" in prefab "Player.prefab" is missing. Detailed information:
-Node path: "Player/BulletControl"
-Asset url: "db://assets/Prefebs/Player.prefab"
-Missing uuid: "02e55e15-d528-4986-af81-2b585f3b7b5f"
-
-2021-05-20T10:38:38.690Z - warn: The Asset used by node "BulletControl" in prefab "Player.prefab" is missing. Detailed information:
-Node path: "Player/BulletControl"
-Asset url: "db://assets/Prefebs/Player.prefab"
-Missing uuid: "63bf5ace-9f8c-4110-90cd-f178252e8ae9"
-
-2021-05-20T10:38:38.691Z - warn: The Asset used by node "Player" in prefab "Player.prefab" is missing. Detailed information:
-Node path: "Player"
-Asset url: "db://assets/Prefebs/Player.prefab"
-Missing uuid: "63bf5ace-9f8c-4110-90cd-f178252e8ae9"
-
-2021-05-20T10:38:41.619Z - warn: Script attached to "BulletControl" in prefab "Player.prefab" is missing or invalid. Detailed information:
-Node path: "Player/BulletControl"
-Asset url: "db://assets/Prefebs/Player.prefab"
-Script UUID: "aeacaa22-a956-4f28-9869-909469fe0ed2"
-Class ID: "aeacaoiqVZPKJhpkJRp/g7S"
-
-2021-05-20T10:38:41.619Z - warn: Script attached to "Player" in prefab "Player.prefab" is missing or invalid. Detailed information:
-Node path: "Player"
-Asset url: "db://assets/Prefebs/Player.prefab"
-Script UUID: "d479cb7b-44e4-4934-8c71-1bcec892b8ab"
-Class ID: "d479ct7RORJNIxxG87Ikrir"
-
-2021-05-20T10:38:41.662Z - warn: The Asset used by component "cc.Sprite" in prefab "Player.prefab" is missing. Detailed information:
-Node path: "Player/Effect/LeftLight"
-Asset url: "db://assets/Prefebs/Player.prefab"
-Missing uuid: "5e551261-00e5-40e2-85f8-078c91d2b2cd"
-
-2021-05-20T10:38:41.663Z - warn: The Asset used by node "LeftLight" in prefab "Player.prefab" is missing. Detailed information:
-Node path: "Player/Effect/LeftLight"
-Asset url: "db://assets/Prefebs/Player.prefab"
-Missing uuid: "63bf5ace-9f8c-4110-90cd-f178252e8ae9"
-
-2021-05-20T10:38:41.663Z - warn: The Asset used by component "cc.Sprite" in prefab "Player.prefab" is missing. Detailed information:
-Node path: "Player/Effect/RightLight"
-Asset url: "db://assets/Prefebs/Player.prefab"
-Missing uuid: "5e551261-00e5-40e2-85f8-078c91d2b2cd"
-
-2021-05-20T10:38:41.663Z - warn: The Asset used by node "RightLight" in prefab "Player.prefab" is missing. Detailed information:
-Node path: "Player/Effect/RightLight"
-Asset url: "db://assets/Prefebs/Player.prefab"
-Missing uuid: "63bf5ace-9f8c-4110-90cd-f178252e8ae9"
-
-2021-05-20T10:38:41.663Z - warn: The Asset used by node "Effect" in prefab "Player.prefab" is missing. Detailed information:
-Node path: "Player/Effect"
-Asset url: "db://assets/Prefebs/Player.prefab"
-Missing uuid: "63bf5ace-9f8c-4110-90cd-f178252e8ae9"
-
-2021-05-20T10:38:41.664Z - warn: The Asset used by component "cc.MissingScript" in prefab "Player.prefab" is missing. Detailed information:
-Node path: "Player/BulletControl"
-Asset url: "db://assets/Prefebs/Player.prefab"
-Missing uuid: "289e7efe-2fab-40fc-9029-41df474eccd9"
-
-2021-05-20T10:38:41.664Z - warn: The Asset used by component "cc.MissingScript" in prefab "Player.prefab" is missing. Detailed information:
-Node path: "Player/BulletControl"
-Asset url: "db://assets/Prefebs/Player.prefab"
-Missing uuid: "cb82bc99-32cf-4e59-97c2-92186e4eefdd"
-
-2021-05-20T10:38:41.664Z - warn: The Asset used by component "cc.MissingScript" in prefab "Player.prefab" is missing. Detailed information:
-Node path: "Player/BulletControl"
-Asset url: "db://assets/Prefebs/Player.prefab"
-Missing uuid: "44782181-b391-4da7-be0a-36121575f0a7"
-
-2021-05-20T10:38:41.664Z - warn: The Asset used by component "cc.MissingScript" in prefab "Player.prefab" is missing. Detailed information:
-Node path: "Player/BulletControl"
-Asset url: "db://assets/Prefebs/Player.prefab"
-Missing uuid: "02e55e15-d528-4986-af81-2b585f3b7b5f"
-
-2021-05-20T10:38:41.664Z - warn: The Asset used by node "BulletControl" in prefab "Player.prefab" is missing. Detailed information:
-Node path: "Player/BulletControl"
-Asset url: "db://assets/Prefebs/Player.prefab"
-Missing uuid: "63bf5ace-9f8c-4110-90cd-f178252e8ae9"
-
-2021-05-20T10:38:41.665Z - warn: The Asset used by node "Player" in prefab "Player.prefab" is missing. Detailed information:
-Node path: "Player"
-Asset url: "db://assets/Prefebs/Player.prefab"
-Missing uuid: "63bf5ace-9f8c-4110-90cd-f178252e8ae9"
-
-2021-05-20T10:38:41.689Z - warn: Script attached to "BulletControl" in prefab "Player.prefab" is missing or invalid. Detailed information:
-Node path: "Player/BulletControl"
-Asset url: "db://assets/Prefebs/Player.prefab"
-Script UUID: "aeacaa22-a956-4f28-9869-909469fe0ed2"
-Class ID: "aeacaoiqVZPKJhpkJRp/g7S"
-
-2021-05-20T10:38:41.689Z - warn: Script attached to "Player" in prefab "Player.prefab" is missing or invalid. Detailed information:
-Node path: "Player"
-Asset url: "db://assets/Prefebs/Player.prefab"
-Script UUID: "d479cb7b-44e4-4934-8c71-1bcec892b8ab"
-Class ID: "d479ct7RORJNIxxG87Ikrir"
-
-2021-05-20T10:38:41.724Z - warn: The Asset used by component "cc.Sprite" in prefab "Player.prefab" is missing. Detailed information:
-Node path: "Player/Effect/LeftLight"
-Asset url: "db://assets/Prefebs/Player.prefab"
-Missing uuid: "5e551261-00e5-40e2-85f8-078c91d2b2cd"
-
-2021-05-20T10:38:41.725Z - warn: The Asset used by node "LeftLight" in prefab "Player.prefab" is missing. Detailed information:
-Node path: "Player/Effect/LeftLight"
-Asset url: "db://assets/Prefebs/Player.prefab"
-Missing uuid: "63bf5ace-9f8c-4110-90cd-f178252e8ae9"
-
-2021-05-20T10:38:41.725Z - warn: The Asset used by component "cc.Sprite" in prefab "Player.prefab" is missing. Detailed information:
-Node path: "Player/Effect/RightLight"
-Asset url: "db://assets/Prefebs/Player.prefab"
-Missing uuid: "5e551261-00e5-40e2-85f8-078c91d2b2cd"
-
-2021-05-20T10:38:41.725Z - warn: The Asset used by node "RightLight" in prefab "Player.prefab" is missing. Detailed information:
-Node path: "Player/Effect/RightLight"
-Asset url: "db://assets/Prefebs/Player.prefab"
-Missing uuid: "63bf5ace-9f8c-4110-90cd-f178252e8ae9"
-
-2021-05-20T10:38:41.725Z - warn: The Asset used by node "Effect" in prefab "Player.prefab" is missing. Detailed information:
-Node path: "Player/Effect"
-Asset url: "db://assets/Prefebs/Player.prefab"
-Missing uuid: "63bf5ace-9f8c-4110-90cd-f178252e8ae9"
-
-2021-05-20T10:38:41.726Z - warn: The Asset used by component "cc.MissingScript" in prefab "Player.prefab" is missing. Detailed information:
-Node path: "Player/BulletControl"
-Asset url: "db://assets/Prefebs/Player.prefab"
-Missing uuid: "289e7efe-2fab-40fc-9029-41df474eccd9"
-
-2021-05-20T10:38:41.726Z - warn: The Asset used by component "cc.MissingScript" in prefab "Player.prefab" is missing. Detailed information:
-Node path: "Player/BulletControl"
-Asset url: "db://assets/Prefebs/Player.prefab"
-Missing uuid: "cb82bc99-32cf-4e59-97c2-92186e4eefdd"
-
-2021-05-20T10:38:41.726Z - warn: The Asset used by component "cc.MissingScript" in prefab "Player.prefab" is missing. Detailed information:
-Node path: "Player/BulletControl"
-Asset url: "db://assets/Prefebs/Player.prefab"
-Missing uuid: "44782181-b391-4da7-be0a-36121575f0a7"
-
-2021-05-20T10:38:41.726Z - warn: The Asset used by component "cc.MissingScript" in prefab "Player.prefab" is missing. Detailed information:
-Node path: "Player/BulletControl"
-Asset url: "db://assets/Prefebs/Player.prefab"
-Missing uuid: "02e55e15-d528-4986-af81-2b585f3b7b5f"
-
-2021-05-20T10:38:41.726Z - warn: The Asset used by node "BulletControl" in prefab "Player.prefab" is missing. Detailed information:
-Node path: "Player/BulletControl"
-Asset url: "db://assets/Prefebs/Player.prefab"
-Missing uuid: "63bf5ace-9f8c-4110-90cd-f178252e8ae9"
-
-2021-05-20T10:38:41.726Z - warn: The Asset used by node "Player" in prefab "Player.prefab" is missing. Detailed information:
-Node path: "Player"
-Asset url: "db://assets/Prefebs/Player.prefab"
-Missing uuid: "63bf5ace-9f8c-4110-90cd-f178252e8ae9"
-
-2021-05-20T10:39:40.032Z - info: Only the prefab node "Player" and its child nodes are saved.
-2021-05-20T10:39:45.856Z - warn: Script attached to "BulletControl" in prefab "Player.prefab" is missing or invalid. Detailed information:
-Node path: "Player/BulletControl"
-Asset url: "db://assets/Prefebs/Player.prefab"
-Script UUID: "aeacaa22-a956-4f28-9869-909469fe0ed2"
-Class ID: "aeacaoiqVZPKJhpkJRp/g7S"
-
-2021-05-20T10:39:45.954Z - warn: Script attached to "BulletControl" in prefab "Player.prefab" is missing or invalid. Detailed information:
-Node path: "Player/BulletControl"
-Asset url: "db://assets/Prefebs/Player.prefab"
-Script UUID: "aeacaa22-a956-4f28-9869-909469fe0ed2"
-Class ID: "aeacaoiqVZPKJhpkJRp/g7S"
-
-2021-05-20T10:39:48.404Z - info: Only the prefab node "Player" and its child nodes are saved.
-2021-05-20T10:39:51.411Z - warn: Script attached to "BulletControl" in prefab "Player.prefab" is missing or invalid. Detailed information:
-Node path: "Player/BulletControl"
-Asset url: "db://assets/Prefebs/Player.prefab"
-Script UUID: "aeacaa22-a956-4f28-9869-909469fe0ed2"
-Class ID: "aeacaoiqVZPKJhpkJRp/g7S"
-
-2021-05-20T10:40:48.425Z - warn: Script attached to "FireCircle" in prefab "FireCircle.prefab" is missing or invalid. Detailed information:
-Node path: "FireCircle"
-Asset url: "db://assets/Prefebs/FireCircle.prefab"
-Script UUID: "8f479874-04e7-45f6-acaa-75b5180ac7a0"
-Class ID: "8f479h0BOdF9qyqdbUYCseg"
-
-2021-05-20T10:40:48.448Z - warn: The Asset used by node "FireCircle" in prefab "FireCircle.prefab" is missing. Detailed information:
-Node path: "FireCircle"
-Asset url: "db://assets/Prefebs/FireCircle.prefab"
-Missing uuid: "77f292f3-b854-4f18-8b43-04a13c4444f8"
-
-2021-05-20T10:40:48.454Z - warn: Script attached to "FireCircle" in prefab "FireCircle.prefab" is missing or invalid. Detailed information:
-Node path: "FireCircle"
-Asset url: "db://assets/Prefebs/FireCircle.prefab"
-Script UUID: "8f479874-04e7-45f6-acaa-75b5180ac7a0"
-Class ID: "8f479h0BOdF9qyqdbUYCseg"
-
-2021-05-20T10:40:48.470Z - warn: The Asset used by node "FireCircle" in prefab "FireCircle.prefab" is missing. Detailed information:
-Node path: "FireCircle"
-Asset url: "db://assets/Prefebs/FireCircle.prefab"
-Missing uuid: "77f292f3-b854-4f18-8b43-04a13c4444f8"
-
-2021-05-20T10:40:54.883Z - warn: The Asset used by node "Spark" in prefab "Spark.prefab" is missing. Detailed information:
-Node path: "Spark"
-Asset url: "db://assets/Prefebs/Spark.prefab"
-Missing uuid: "9f71d5f4-727d-4809-9a77-e8a6f30aad06"
-
-2021-05-20T10:40:55.031Z - warn: The Asset used by node "Spark" in prefab "Spark.prefab" is missing. Detailed information:
-Node path: "Spark"
-Asset url: "db://assets/Prefebs/Spark.prefab"
-Missing uuid: "9f71d5f4-727d-4809-9a77-e8a6f30aad06"
-
-2021-05-20T10:40:58.616Z - warn: The Asset used by node "Spark" in prefab "Spark.prefab" is missing. Detailed information:
-Node path: "Spark"
-Asset url: "db://assets/Prefebs/Spark.prefab"
-Missing uuid: "9f71d5f4-727d-4809-9a77-e8a6f30aad06"
-
-2021-05-20T10:40:58.719Z - warn: The Asset used by node "Spark" in prefab "Spark.prefab" is missing. Detailed information:
-Node path: "Spark"
-Asset url: "db://assets/Prefebs/Spark.prefab"
-Missing uuid: "9f71d5f4-727d-4809-9a77-e8a6f30aad06"
-
-2021-05-20T10:41:13.139Z - info: Only the prefab node "Spark" and its child nodes are saved.
-2021-05-20T10:46:19.135Z - warn: The 'type' attribute of 'Level1._obj' is undefined when loading script
-2021-05-20T10:46:19.225Z - warn: Script attached to "BulletControl" in prefab "Player.prefab" is missing or invalid. Detailed information:
-Node path: "Player/BulletControl"
-Asset url: "db://assets/Prefebs/Player.prefab"
-Script UUID: "aeacaa22-a956-4f28-9869-909469fe0ed2"
-Class ID: "aeacaoiqVZPKJhpkJRp/g7S"
-
-2021-05-20T10:46:19.437Z - warn: The 'type' attribute of 'Level1._obj' is undefined when loading script
-2021-05-20T10:46:19.485Z - warn: Script attached to "BulletControl" in prefab "Player.prefab" is missing or invalid. Detailed information:
-Node path: "Player/BulletControl"
-Asset url: "db://assets/Prefebs/Player.prefab"
-Script UUID: "aeacaa22-a956-4f28-9869-909469fe0ed2"
-Class ID: "aeacaoiqVZPKJhpkJRp/g7S"
-
-2021-05-20T10:46:19.680Z - warn: The 'type' attribute of 'Level1._obj' is undefined when loading script
-2021-05-20T10:46:19.724Z - warn: Script attached to "BulletControl" in prefab "Player.prefab" is missing or invalid. Detailed information:
-Node path: "Player/BulletControl"
-Asset url: "db://assets/Prefebs/Player.prefab"
-Script UUID: "aeacaa22-a956-4f28-9869-909469fe0ed2"
-Class ID: "aeacaoiqVZPKJhpkJRp/g7S"
-
-2021-05-20T10:46:19.866Z - warn: The 'type' attribute of 'Level1._obj' is undefined when loading script
-2021-05-20T10:46:19.934Z - warn: Script attached to "BulletControl" in prefab "Player.prefab" is missing or invalid. Detailed information:
-Node path: "Player/BulletControl"
-Asset url: "db://assets/Prefebs/Player.prefab"
-Script UUID: "aeacaa22-a956-4f28-9869-909469fe0ed2"
-Class ID: "aeacaoiqVZPKJhpkJRp/g7S"
-
-2021-05-20T10:46:20.134Z - warn: The 'type' attribute of 'Level1._obj' is undefined when loading script
-2021-05-20T10:46:20.210Z - warn: Script attached to "BulletControl" in prefab "Player.prefab" is missing or invalid. Detailed information:
-Node path: "Player/BulletControl"
-Asset url: "db://assets/Prefebs/Player.prefab"
-Script UUID: "aeacaa22-a956-4f28-9869-909469fe0ed2"
-Class ID: "aeacaoiqVZPKJhpkJRp/g7S"
-
-2021-05-20T10:46:20.393Z - warn: The 'type' attribute of 'Level1._obj' is undefined when loading script
-2021-05-20T10:46:20.464Z - warn: Script attached to "BulletControl" in prefab "Player.prefab" is missing or invalid. Detailed information:
-Node path: "Player/BulletControl"
-Asset url: "db://assets/Prefebs/Player.prefab"
-Script UUID: "aeacaa22-a956-4f28-9869-909469fe0ed2"
-Class ID: "aeacaoiqVZPKJhpkJRp/g7S"
-
-2021-05-20T10:46:20.579Z - warn: The 'type' attribute of 'Level1._obj' is undefined when loading script
-2021-05-20T10:46:20.649Z - warn: Script attached to "BulletControl" in prefab "Player.prefab" is missing or invalid. Detailed information:
-Node path: "Player/BulletControl"
-Asset url: "db://assets/Prefebs/Player.prefab"
-Script UUID: "aeacaa22-a956-4f28-9869-909469fe0ed2"
-Class ID: "aeacaoiqVZPKJhpkJRp/g7S"
-
-2021-05-20T10:46:20.823Z - warn: The 'type' attribute of 'Level1._obj' is undefined when loading script
-2021-05-20T10:46:20.894Z - warn: Script attached to "BulletControl" in prefab "Player.prefab" is missing or invalid. Detailed information:
-Node path: "Player/BulletControl"
-Asset url: "db://assets/Prefebs/Player.prefab"
-Script UUID: "aeacaa22-a956-4f28-9869-909469fe0ed2"
-Class ID: "aeacaoiqVZPKJhpkJRp/g7S"
-
-2021-05-20T10:46:21.147Z - warn: The 'type' attribute of 'Level1._obj' is undefined when loading script
-2021-05-20T10:46:21.189Z - warn: Script attached to "BulletControl" in prefab "Player.prefab" is missing or invalid. Detailed information:
-Node path: "Player/BulletControl"
-Asset url: "db://assets/Prefebs/Player.prefab"
-Script UUID: "aeacaa22-a956-4f28-9869-909469fe0ed2"
-Class ID: "aeacaoiqVZPKJhpkJRp/g7S"
-
-2021-05-20T10:46:21.334Z - warn: The 'type' attribute of 'Level1._obj' is undefined when loading script
-2021-05-20T10:46:21.402Z - warn: Script attached to "BulletControl" in prefab "Player.prefab" is missing or invalid. Detailed information:
-Node path: "Player/BulletControl"
-Asset url: "db://assets/Prefebs/Player.prefab"
-Script UUID: "aeacaa22-a956-4f28-9869-909469fe0ed2"
-Class ID: "aeacaoiqVZPKJhpkJRp/g7S"
-
-2021-05-20T10:46:31.289Z - warn: Script attached to "GreenBullet" in prefab "GreenBullet.prefab" is missing or invalid. Detailed information:
-Node path: "GreenBullet"
-Asset url: "db://assets/Prefebs/GreenBullet.prefab"
-Script UUID: "8f479874-04e7-45f6-acaa-75b5180ac7a0"
-Class ID: "8f479h0BOdF9qyqdbUYCseg"
-
-2021-05-20T10:46:31.347Z - warn: The Asset used by node "Spark" in prefab "GreenBullet.prefab" is missing. Detailed information:
-Node path: "GreenBullet/Spark"
-Asset url: "db://assets/Prefebs/GreenBullet.prefab"
-Missing uuid: "748f103b-fa09-4212-a7a0-7f72c1287da7"
-
-2021-05-20T10:46:31.348Z - warn: The Asset used by component "cc.MissingScript" in prefab "GreenBullet.prefab" is missing. Detailed information:
-Node path: "GreenBullet"
-Asset url: "db://assets/Prefebs/GreenBullet.prefab"
-Missing uuid: "69fc1163-9267-4699-9d7b-062386f1485d"
-
-2021-05-20T10:46:31.348Z - warn: The Asset used by node "GreenBullet" in prefab "GreenBullet.prefab" is missing. Detailed information:
-Node path: "GreenBullet"
-Asset url: "db://assets/Prefebs/GreenBullet.prefab"
-Missing uuid: "748f103b-fa09-4212-a7a0-7f72c1287da7"
-
-2021-05-20T10:46:33.920Z - warn: Script attached to "OrangeBullet" in prefab "OrangeBullet.prefab" is missing or invalid. Detailed information:
-Node path: "OrangeBullet"
-Asset url: "db://assets/Prefebs/OrangeBullet.prefab"
-Script UUID: "8f479874-04e7-45f6-acaa-75b5180ac7a0"
-Class ID: "8f479h0BOdF9qyqdbUYCseg"
-
-2021-05-20T10:46:33.929Z - warn: The Asset used by node "OrangeBullet" in prefab "OrangeBullet.prefab" is missing. Detailed information:
-Node path: "OrangeBullet"
-Asset url: "db://assets/Prefebs/OrangeBullet.prefab"
-Missing uuid: "02e55e15-d528-4986-af81-2b585f3b7b5f"
-
-2021-05-20T10:46:39.477Z - warn: Script attached to "RedBullet" in prefab "RedBullet.prefab" is missing or invalid. Detailed information:
-Node path: "RedBullet"
-Asset url: "db://assets/Prefebs/RedBullet.prefab"
-Script UUID: "8f479874-04e7-45f6-acaa-75b5180ac7a0"
-Class ID: "8f479h0BOdF9qyqdbUYCseg"
-
-2021-05-20T10:46:39.491Z - warn: The Asset used by node "RedBullet" in prefab "RedBullet.prefab" is missing. Detailed information:
-Node path: "RedBullet"
-Asset url: "db://assets/Prefebs/RedBullet.prefab"
-Missing uuid: "64bafe4f-9207-4c7a-8d68-81c7e7de236b"
-
-2021-05-20T10:46:43.222Z - warn: Script attached to "BlueBullet" in prefab "BlueBullet.prefab" is missing or invalid. Detailed information:
-Node path: "BlueBullet"
-Asset url: "db://assets/Prefebs/BlueBullet.prefab"
-Script UUID: "8f479874-04e7-45f6-acaa-75b5180ac7a0"
-Class ID: "8f479h0BOdF9qyqdbUYCseg"
-
-2021-05-20T10:46:43.250Z - warn: The Asset used by node "BlueBullet" in prefab "BlueBullet.prefab" is missing. Detailed information:
-Node path: "BlueBullet"
-Asset url: "db://assets/Prefebs/BlueBullet.prefab"
-Missing uuid: "5ed38653-b520-48a2-96f7-1e526f2babbf"
-
-2021-05-20T10:46:48.488Z - warn: Script attached to "LaserGreen" in prefab "LaserGreen.prefab" is missing or invalid. Detailed information:
-Node path: "LaserGreen"
-Asset url: "db://assets/Prefebs/LaserGreen.prefab"
-Script UUID: "a6ac570e-f4f4-433a-ab7e-a9207699527a"
-Class ID: "a6ac5cO9PRDOqt+qSB2mVJ6"
-
-2021-05-20T10:46:48.500Z - warn: The Asset used by node "LaserGreen" in prefab "LaserGreen.prefab" is missing. Detailed information:
-Node path: "LaserGreen"
-Asset url: "db://assets/Prefebs/LaserGreen.prefab"
-Missing uuid: "69fc1163-9267-4699-9d7b-062386f1485d"
-
-2021-05-20T10:46:48.505Z - warn: Script attached to "LaserGreen" in prefab "LaserGreen.prefab" is missing or invalid. Detailed information:
-Node path: "LaserGreen"
-Asset url: "db://assets/Prefebs/LaserGreen.prefab"
-Script UUID: "a6ac570e-f4f4-433a-ab7e-a9207699527a"
-Class ID: "a6ac5cO9PRDOqt+qSB2mVJ6"
-
-2021-05-20T10:46:48.520Z - warn: The Asset used by node "LaserGreen" in prefab "LaserGreen.prefab" is missing. Detailed information:
-Node path: "LaserGreen"
-Asset url: "db://assets/Prefebs/LaserGreen.prefab"
-Missing uuid: "69fc1163-9267-4699-9d7b-062386f1485d"
-
-2021-05-20T10:46:58.319Z - warn: Script attached to "FireCircle" in prefab "FireCircle.prefab" is missing or invalid. Detailed information:
-Node path: "FireCircle"
-Asset url: "db://assets/Prefebs/FireCircle.prefab"
-Script UUID: "8f479874-04e7-45f6-acaa-75b5180ac7a0"
-Class ID: "8f479h0BOdF9qyqdbUYCseg"
-
-2021-05-20T10:46:58.335Z - warn: The Asset used by node "FireCircle" in prefab "FireCircle.prefab" is missing. Detailed information:
-Node path: "FireCircle"
-Asset url: "db://assets/Prefebs/FireCircle.prefab"
-Missing uuid: "77f292f3-b854-4f18-8b43-04a13c4444f8"
-
-2021-05-20T10:46:59.673Z - info: Only the prefab node "LaserGreen" and its child nodes are saved.
-2021-05-20T10:46:59.918Z - warn: Script attached to "FireCircle" in prefab "FireCircle.prefab" is missing or invalid. Detailed information:
-Node path: "FireCircle"
-Asset url: "db://assets/Prefebs/FireCircle.prefab"
-Script UUID: "8f479874-04e7-45f6-acaa-75b5180ac7a0"
-Class ID: "8f479h0BOdF9qyqdbUYCseg"
-
-2021-05-20T10:46:59.985Z - warn: The Asset used by node "FireCircle" in prefab "FireCircle.prefab" is missing. Detailed information:
-Node path: "FireCircle"
-Asset url: "db://assets/Prefebs/FireCircle.prefab"
-Missing uuid: "77f292f3-b854-4f18-8b43-04a13c4444f8"
-
-2021-05-20T10:47:02.634Z - warn: Script attached to "GreenBullet" in prefab "GreenBullet.prefab" is missing or invalid. Detailed information:
-Node path: "GreenBullet"
-Asset url: "db://assets/Prefebs/GreenBullet.prefab"
-Script UUID: "8f479874-04e7-45f6-acaa-75b5180ac7a0"
-Class ID: "8f479h0BOdF9qyqdbUYCseg"
-
-2021-05-20T10:47:02.722Z - warn: The Asset used by node "Spark" in prefab "GreenBullet.prefab" is missing. Detailed information:
-Node path: "GreenBullet/Spark"
-Asset url: "db://assets/Prefebs/GreenBullet.prefab"
-Missing uuid: "748f103b-fa09-4212-a7a0-7f72c1287da7"
-
-2021-05-20T10:47:02.722Z - warn: The Asset used by component "cc.MissingScript" in prefab "GreenBullet.prefab" is missing. Detailed information:
-Node path: "GreenBullet"
-Asset url: "db://assets/Prefebs/GreenBullet.prefab"
-Missing uuid: "69fc1163-9267-4699-9d7b-062386f1485d"
-
-2021-05-20T10:47:02.722Z - warn: The Asset used by node "GreenBullet" in prefab "GreenBullet.prefab" is missing. Detailed information:
-Node path: "GreenBullet"
-Asset url: "db://assets/Prefebs/GreenBullet.prefab"
-Missing uuid: "748f103b-fa09-4212-a7a0-7f72c1287da7"
-
-2021-05-20T10:47:02.806Z - warn: Script attached to "GreenBullet" in prefab "GreenBullet.prefab" is missing or invalid. Detailed information:
-Node path: "GreenBullet"
-Asset url: "db://assets/Prefebs/GreenBullet.prefab"
-Script UUID: "8f479874-04e7-45f6-acaa-75b5180ac7a0"
-Class ID: "8f479h0BOdF9qyqdbUYCseg"
-
-2021-05-20T10:47:02.980Z - warn: The Asset used by node "Spark" in prefab "GreenBullet.prefab" is missing. Detailed information:
-Node path: "GreenBullet/Spark"
-Asset url: "db://assets/Prefebs/GreenBullet.prefab"
-Missing uuid: "748f103b-fa09-4212-a7a0-7f72c1287da7"
-
-2021-05-20T10:47:02.980Z - warn: The Asset used by component "cc.MissingScript" in prefab "GreenBullet.prefab" is missing. Detailed information:
-Node path: "GreenBullet"
-Asset url: "db://assets/Prefebs/GreenBullet.prefab"
-Missing uuid: "69fc1163-9267-4699-9d7b-062386f1485d"
-
-2021-05-20T10:47:02.980Z - warn: The Asset used by node "GreenBullet" in prefab "GreenBullet.prefab" is missing. Detailed information:
-Node path: "GreenBullet"
-Asset url: "db://assets/Prefebs/GreenBullet.prefab"
-Missing uuid: "748f103b-fa09-4212-a7a0-7f72c1287da7"
-
-2021-05-20T10:47:21.896Z - info: Only the prefab node "GreenBullet" and its child nodes are saved.
-2021-05-20T10:47:23.806Z - warn: Script attached to "BlueBullet" in prefab "BlueBullet.prefab" is missing or invalid. Detailed information:
-Node path: "BlueBullet"
-Asset url: "db://assets/Prefebs/BlueBullet.prefab"
-Script UUID: "8f479874-04e7-45f6-acaa-75b5180ac7a0"
-Class ID: "8f479h0BOdF9qyqdbUYCseg"
-
-2021-05-20T10:47:23.815Z - warn: The Asset used by node "BlueBullet" in prefab "BlueBullet.prefab" is missing. Detailed information:
-Node path: "BlueBullet"
-Asset url: "db://assets/Prefebs/BlueBullet.prefab"
-Missing uuid: "5ed38653-b520-48a2-96f7-1e526f2babbf"
-
-2021-05-20T10:47:23.928Z - warn: Script attached to "BlueBullet" in prefab "BlueBullet.prefab" is missing or invalid. Detailed information:
-Node path: "BlueBullet"
-Asset url: "db://assets/Prefebs/BlueBullet.prefab"
-Script UUID: "8f479874-04e7-45f6-acaa-75b5180ac7a0"
-Class ID: "8f479h0BOdF9qyqdbUYCseg"
-
-2021-05-20T10:47:23.997Z - warn: The Asset used by node "BlueBullet" in prefab "BlueBullet.prefab" is missing. Detailed information:
-Node path: "BlueBullet"
-Asset url: "db://assets/Prefebs/BlueBullet.prefab"
-Missing uuid: "5ed38653-b520-48a2-96f7-1e526f2babbf"
-
-2021-05-20T10:47:35.594Z - warn: Script attached to "RedBullet" in prefab "RedBullet.prefab" is missing or invalid. Detailed information:
-Node path: "RedBullet"
-Asset url: "db://assets/Prefebs/RedBullet.prefab"
-Script UUID: "8f479874-04e7-45f6-acaa-75b5180ac7a0"
-Class ID: "8f479h0BOdF9qyqdbUYCseg"
-
-2021-05-20T10:47:35.602Z - warn: The Asset used by node "RedBullet" in prefab "RedBullet.prefab" is missing. Detailed information:
-Node path: "RedBullet"
-Asset url: "db://assets/Prefebs/RedBullet.prefab"
-Missing uuid: "64bafe4f-9207-4c7a-8d68-81c7e7de236b"
-
-2021-05-20T10:47:36.947Z - info: Only the prefab node "BlueBullet" and its child nodes are saved.
-2021-05-20T10:47:37.270Z - warn: Script attached to "RedBullet" in prefab "RedBullet.prefab" is missing or invalid. Detailed information:
-Node path: "RedBullet"
-Asset url: "db://assets/Prefebs/RedBullet.prefab"
-Script UUID: "8f479874-04e7-45f6-acaa-75b5180ac7a0"
-Class ID: "8f479h0BOdF9qyqdbUYCseg"
-
-2021-05-20T10:47:37.316Z - warn: The Asset used by node "RedBullet" in prefab "RedBullet.prefab" is missing. Detailed information:
-Node path: "RedBullet"
-Asset url: "db://assets/Prefebs/RedBullet.prefab"
-Missing uuid: "64bafe4f-9207-4c7a-8d68-81c7e7de236b"
-
-2021-05-20T10:47:52.663Z - warn: Script attached to "OrangeBullet" in prefab "OrangeBullet.prefab" is missing or invalid. Detailed information:
-Node path: "OrangeBullet"
-Asset url: "db://assets/Prefebs/OrangeBullet.prefab"
-Script UUID: "8f479874-04e7-45f6-acaa-75b5180ac7a0"
-Class ID: "8f479h0BOdF9qyqdbUYCseg"
-
-2021-05-20T10:47:52.676Z - warn: The Asset used by node "OrangeBullet" in prefab "OrangeBullet.prefab" is missing. Detailed information:
-Node path: "OrangeBullet"
-Asset url: "db://assets/Prefebs/OrangeBullet.prefab"
-Missing uuid: "02e55e15-d528-4986-af81-2b585f3b7b5f"
-
-2021-05-20T10:47:54.271Z - info: Only the prefab node "RedBullet" and its child nodes are saved.
-2021-05-20T10:47:54.529Z - warn: Script attached to "OrangeBullet" in prefab "OrangeBullet.prefab" is missing or invalid. Detailed information:
-Node path: "OrangeBullet"
-Asset url: "db://assets/Prefebs/OrangeBullet.prefab"
-Script UUID: "8f479874-04e7-45f6-acaa-75b5180ac7a0"
-Class ID: "8f479h0BOdF9qyqdbUYCseg"
-
-2021-05-20T10:47:54.565Z - warn: The Asset used by node "OrangeBullet" in prefab "OrangeBullet.prefab" is missing. Detailed information:
-Node path: "OrangeBullet"
-Asset url: "db://assets/Prefebs/OrangeBullet.prefab"
-Missing uuid: "02e55e15-d528-4986-af81-2b585f3b7b5f"
-
-2021-05-20T10:48:01.099Z - info: Only the prefab node "OrangeBullet" and its child nodes are saved.
-2021-05-20T10:49:26.396Z - warn: The 'type' attribute of 'Level1._obj' is undefined when loading script
-2021-05-20T10:49:26.505Z - warn: Script attached to "BlueBullet" in prefab "BlueBullet.prefab" is missing or invalid. Detailed information:
-Node path: "BlueBullet"
-Asset url: "db://assets/Prefebs/BlueBullet.prefab"
-Script UUID: "8f479874-04e7-45f6-acaa-75b5180ac7a0"
-Class ID: "8f479h0BOdF9qyqdbUYCseg"
-
-2021-05-20T10:49:26.509Z - warn: Script attached to "BulletControl" in prefab "Player.prefab" is missing or invalid. Detailed information:
-Node path: "Player/BulletControl"
-Asset url: "db://assets/Prefebs/Player.prefab"
-Script UUID: "aeacaa22-a956-4f28-9869-909469fe0ed2"
-Class ID: "aeacaoiqVZPKJhpkJRp/g7S"
-
-2021-05-20T10:49:26.730Z - warn: The 'type' attribute of 'Level1._obj' is undefined when loading script
-2021-05-20T10:49:26.833Z - warn: Script attached to "BlueBullet" in prefab "BlueBullet.prefab" is missing or invalid. Detailed information:
-Node path: "BlueBullet"
-Asset url: "db://assets/Prefebs/BlueBullet.prefab"
-Script UUID: "8f479874-04e7-45f6-acaa-75b5180ac7a0"
-Class ID: "8f479h0BOdF9qyqdbUYCseg"
-
-2021-05-20T10:49:26.864Z - warn: Script attached to "BulletControl" in prefab "Player.prefab" is missing or invalid. Detailed information:
-Node path: "Player/BulletControl"
-Asset url: "db://assets/Prefebs/Player.prefab"
-Script UUID: "aeacaa22-a956-4f28-9869-909469fe0ed2"
-Class ID: "aeacaoiqVZPKJhpkJRp/g7S"
-
-2021-05-20T10:49:27.027Z - warn: The 'type' attribute of 'Level1._obj' is undefined when loading script
-2021-05-20T10:49:27.086Z - warn: Script attached to "BlueBullet" in prefab "BlueBullet.prefab" is missing or invalid. Detailed information:
-Node path: "BlueBullet"
-Asset url: "db://assets/Prefebs/BlueBullet.prefab"
-Script UUID: "8f479874-04e7-45f6-acaa-75b5180ac7a0"
-Class ID: "8f479h0BOdF9qyqdbUYCseg"
-
-2021-05-20T10:49:27.090Z - warn: Script attached to "BulletControl" in prefab "Player.prefab" is missing or invalid. Detailed information:
-Node path: "Player/BulletControl"
-Asset url: "db://assets/Prefebs/Player.prefab"
-Script UUID: "aeacaa22-a956-4f28-9869-909469fe0ed2"
-Class ID: "aeacaoiqVZPKJhpkJRp/g7S"
-
-2021-05-20T10:49:27.282Z - warn: The 'type' attribute of 'Level1._obj' is undefined when loading script
-2021-05-20T10:49:27.345Z - warn: Script attached to "BlueBullet" in prefab "BlueBullet.prefab" is missing or invalid. Detailed information:
-Node path: "BlueBullet"
-Asset url: "db://assets/Prefebs/BlueBullet.prefab"
-Script UUID: "8f479874-04e7-45f6-acaa-75b5180ac7a0"
-Class ID: "8f479h0BOdF9qyqdbUYCseg"
-
-2021-05-20T10:49:27.349Z - warn: Script attached to "BulletControl" in prefab "Player.prefab" is missing or invalid. Detailed information:
-Node path: "Player/BulletControl"
-Asset url: "db://assets/Prefebs/Player.prefab"
-Script UUID: "aeacaa22-a956-4f28-9869-909469fe0ed2"
-Class ID: "aeacaoiqVZPKJhpkJRp/g7S"
-
-2021-05-20T10:49:27.580Z - warn: The 'type' attribute of 'Level1._obj' is undefined when loading script
-2021-05-20T10:49:27.659Z - warn: Script attached to "BlueBullet" in prefab "BlueBullet.prefab" is missing or invalid. Detailed information:
-Node path: "BlueBullet"
-Asset url: "db://assets/Prefebs/BlueBullet.prefab"
-Script UUID: "8f479874-04e7-45f6-acaa-75b5180ac7a0"
-Class ID: "8f479h0BOdF9qyqdbUYCseg"
-
-2021-05-20T10:49:27.667Z - warn: Script attached to "BulletControl" in prefab "Player.prefab" is missing or invalid. Detailed information:
-Node path: "Player/BulletControl"
-Asset url: "db://assets/Prefebs/Player.prefab"
-Script UUID: "aeacaa22-a956-4f28-9869-909469fe0ed2"
-Class ID: "aeacaoiqVZPKJhpkJRp/g7S"
-
-2021-05-20T10:49:27.830Z - warn: The 'type' attribute of 'Level1._obj' is undefined when loading script
-2021-05-20T10:49:27.899Z - warn: Script attached to "BlueBullet" in prefab "BlueBullet.prefab" is missing or invalid. Detailed information:
-Node path: "BlueBullet"
-Asset url: "db://assets/Prefebs/BlueBullet.prefab"
-Script UUID: "8f479874-04e7-45f6-acaa-75b5180ac7a0"
-Class ID: "8f479h0BOdF9qyqdbUYCseg"
-
-2021-05-20T10:49:27.904Z - warn: Script attached to "BulletControl" in prefab "Player.prefab" is missing or invalid. Detailed information:
-Node path: "Player/BulletControl"
-Asset url: "db://assets/Prefebs/Player.prefab"
-Script UUID: "aeacaa22-a956-4f28-9869-909469fe0ed2"
-Class ID: "aeacaoiqVZPKJhpkJRp/g7S"
-
-2021-05-20T10:49:28.113Z - warn: The 'type' attribute of 'Level1._obj' is undefined when loading script
-2021-05-20T10:49:28.226Z - warn: Script attached to "BlueBullet" in prefab "BlueBullet.prefab" is missing or invalid. Detailed information:
-Node path: "BlueBullet"
-Asset url: "db://assets/Prefebs/BlueBullet.prefab"
-Script UUID: "8f479874-04e7-45f6-acaa-75b5180ac7a0"
-Class ID: "8f479h0BOdF9qyqdbUYCseg"
-
-2021-05-20T10:49:28.228Z - warn: Script attached to "BulletControl" in prefab "Player.prefab" is missing or invalid. Detailed information:
-Node path: "Player/BulletControl"
-Asset url: "db://assets/Prefebs/Player.prefab"
-Script UUID: "aeacaa22-a956-4f28-9869-909469fe0ed2"
-Class ID: "aeacaoiqVZPKJhpkJRp/g7S"
-
-2021-05-20T10:49:28.488Z - warn: The 'type' attribute of 'Level1._obj' is undefined when loading script
-2021-05-20T10:49:28.545Z - warn: Script attached to "BulletControl" in prefab "Player.prefab" is missing or invalid. Detailed information:
-Node path: "Player/BulletControl"
-Asset url: "db://assets/Prefebs/Player.prefab"
-Script UUID: "aeacaa22-a956-4f28-9869-909469fe0ed2"
-Class ID: "aeacaoiqVZPKJhpkJRp/g7S"
-
-2021-05-20T10:49:28.569Z - warn: Script attached to "BlueBullet" in prefab "BlueBullet.prefab" is missing or invalid. Detailed information:
-Node path: "BlueBullet"
-Asset url: "db://assets/Prefebs/BlueBullet.prefab"
-Script UUID: "8f479874-04e7-45f6-acaa-75b5180ac7a0"
-Class ID: "8f479h0BOdF9qyqdbUYCseg"
-
-2021-05-20T10:49:28.764Z - warn: The 'type' attribute of 'Level1._obj' is undefined when loading script
-2021-05-20T10:49:28.824Z - warn: Script attached to "BlueBullet" in prefab "BlueBullet.prefab" is missing or invalid. Detailed information:
-Node path: "BlueBullet"
-Asset url: "db://assets/Prefebs/BlueBullet.prefab"
-Script UUID: "8f479874-04e7-45f6-acaa-75b5180ac7a0"
-Class ID: "8f479h0BOdF9qyqdbUYCseg"
-
-2021-05-20T10:49:28.851Z - warn: Script attached to "BulletControl" in prefab "Player.prefab" is missing or invalid. Detailed information:
-Node path: "Player/BulletControl"
-Asset url: "db://assets/Prefebs/Player.prefab"
-Script UUID: "aeacaa22-a956-4f28-9869-909469fe0ed2"
-Class ID: "aeacaoiqVZPKJhpkJRp/g7S"
-
-2021-05-20T10:49:29.039Z - warn: The 'type' attribute of 'Level1._obj' is undefined when loading script
-2021-05-20T10:49:29.089Z - warn: Script attached to "BlueBullet" in prefab "BlueBullet.prefab" is missing or invalid. Detailed information:
-Node path: "BlueBullet"
-Asset url: "db://assets/Prefebs/BlueBullet.prefab"
-Script UUID: "8f479874-04e7-45f6-acaa-75b5180ac7a0"
-Class ID: "8f479h0BOdF9qyqdbUYCseg"
-
-2021-05-20T10:49:29.093Z - warn: Script attached to "BulletControl" in prefab "Player.prefab" is missing or invalid. Detailed information:
-Node path: "Player/BulletControl"
-Asset url: "db://assets/Prefebs/Player.prefab"
-Script UUID: "aeacaa22-a956-4f28-9869-909469fe0ed2"
-Class ID: "aeacaoiqVZPKJhpkJRp/g7S"
-
-2021-05-20T10:50:56.688Z - warn: The 'type' attribute of 'Level1._obj' is undefined when loading script
-2021-05-20T10:50:56.799Z - warn: Script attached to "BlueBullet" in prefab "BlueBullet.prefab" is missing or invalid. Detailed information:
-Node path: "BlueBullet"
-Asset url: "db://assets/Prefebs/BlueBullet.prefab"
-Script UUID: "8f479874-04e7-45f6-acaa-75b5180ac7a0"
-Class ID: "8f479h0BOdF9qyqdbUYCseg"
-
-2021-05-20T10:50:56.816Z - warn: Script attached to "BulletControl" in prefab "Player.prefab" is missing or invalid. Detailed information:
-Node path: "Player/BulletControl"
-Asset url: "db://assets/Prefebs/Player.prefab"
-Script UUID: "aeacaa22-a956-4f28-9869-909469fe0ed2"
-Class ID: "aeacaoiqVZPKJhpkJRp/g7S"
-
-2021-05-20T10:50:57.076Z - warn: The 'type' attribute of 'Level1._obj' is undefined when loading script
-2021-05-20T10:50:57.133Z - warn: Script attached to "BulletControl" in prefab "Player.prefab" is missing or invalid. Detailed information:
-Node path: "Player/BulletControl"
-Asset url: "db://assets/Prefebs/Player.prefab"
-Script UUID: "aeacaa22-a956-4f28-9869-909469fe0ed2"
-Class ID: "aeacaoiqVZPKJhpkJRp/g7S"
-
-2021-05-20T10:50:57.140Z - warn: Script attached to "BlueBullet" in prefab "BlueBullet.prefab" is missing or invalid. Detailed information:
-Node path: "BlueBullet"
-Asset url: "db://assets/Prefebs/BlueBullet.prefab"
-Script UUID: "8f479874-04e7-45f6-acaa-75b5180ac7a0"
-Class ID: "8f479h0BOdF9qyqdbUYCseg"
-
-2021-05-20T10:50:57.355Z - warn: The 'type' attribute of 'Level1._obj' is undefined when loading script
-2021-05-20T10:50:57.416Z - warn: Script attached to "BlueBullet" in prefab "BlueBullet.prefab" is missing or invalid. Detailed information:
-Node path: "BlueBullet"
-Asset url: "db://assets/Prefebs/BlueBullet.prefab"
-Script UUID: "8f479874-04e7-45f6-acaa-75b5180ac7a0"
-Class ID: "8f479h0BOdF9qyqdbUYCseg"
-
-2021-05-20T10:50:57.425Z - warn: Script attached to "BulletControl" in prefab "Player.prefab" is missing or invalid. Detailed information:
-Node path: "Player/BulletControl"
-Asset url: "db://assets/Prefebs/Player.prefab"
-Script UUID: "aeacaa22-a956-4f28-9869-909469fe0ed2"
-Class ID: "aeacaoiqVZPKJhpkJRp/g7S"
-
-2021-05-20T10:50:57.628Z - warn: The 'type' attribute of 'Level1._obj' is undefined when loading script
-2021-05-20T10:50:57.680Z - warn: Script attached to "BlueBullet" in prefab "BlueBullet.prefab" is missing or invalid. Detailed information:
-Node path: "BlueBullet"
-Asset url: "db://assets/Prefebs/BlueBullet.prefab"
-Script UUID: "8f479874-04e7-45f6-acaa-75b5180ac7a0"
-Class ID: "8f479h0BOdF9qyqdbUYCseg"
-
-2021-05-20T10:50:57.684Z - warn: Script attached to "BulletControl" in prefab "Player.prefab" is missing or invalid. Detailed information:
-Node path: "Player/BulletControl"
-Asset url: "db://assets/Prefebs/Player.prefab"
-Script UUID: "aeacaa22-a956-4f28-9869-909469fe0ed2"
-Class ID: "aeacaoiqVZPKJhpkJRp/g7S"
-
-2021-05-20T10:50:57.883Z - warn: The 'type' attribute of 'Level1._obj' is undefined when loading script
-2021-05-20T10:50:57.992Z - warn: Script attached to "BlueBullet" in prefab "BlueBullet.prefab" is missing or invalid. Detailed information:
-Node path: "BlueBullet"
-Asset url: "db://assets/Prefebs/BlueBullet.prefab"
-Script UUID: "8f479874-04e7-45f6-acaa-75b5180ac7a0"
-Class ID: "8f479h0BOdF9qyqdbUYCseg"
-
-2021-05-20T10:50:57.997Z - warn: Script attached to "BulletControl" in prefab "Player.prefab" is missing or invalid. Detailed information:
-Node path: "Player/BulletControl"
-Asset url: "db://assets/Prefebs/Player.prefab"
-Script UUID: "aeacaa22-a956-4f28-9869-909469fe0ed2"
-Class ID: "aeacaoiqVZPKJhpkJRp/g7S"
-
-2021-05-20T10:50:58.265Z - warn: The 'type' attribute of 'Level1._obj' is undefined when loading script
-2021-05-20T10:50:58.330Z - warn: Script attached to "BlueBullet" in prefab "BlueBullet.prefab" is missing or invalid. Detailed information:
-Node path: "BlueBullet"
-Asset url: "db://assets/Prefebs/BlueBullet.prefab"
-Script UUID: "8f479874-04e7-45f6-acaa-75b5180ac7a0"
-Class ID: "8f479h0BOdF9qyqdbUYCseg"
-
-2021-05-20T10:50:58.337Z - warn: Script attached to "BulletControl" in prefab "Player.prefab" is missing or invalid. Detailed information:
-Node path: "Player/BulletControl"
-Asset url: "db://assets/Prefebs/Player.prefab"
-Script UUID: "aeacaa22-a956-4f28-9869-909469fe0ed2"
-Class ID: "aeacaoiqVZPKJhpkJRp/g7S"
-
-2021-05-20T10:50:58.637Z - warn: The 'type' attribute of 'Level1._obj' is undefined when loading script
-2021-05-20T10:50:58.704Z - warn: Script attached to "BlueBullet" in prefab "BlueBullet.prefab" is missing or invalid. Detailed information:
-Node path: "BlueBullet"
-Asset url: "db://assets/Prefebs/BlueBullet.prefab"
-Script UUID: "8f479874-04e7-45f6-acaa-75b5180ac7a0"
-Class ID: "8f479h0BOdF9qyqdbUYCseg"
-
-2021-05-20T10:50:58.742Z - warn: Script attached to "BulletControl" in prefab "Player.prefab" is missing or invalid. Detailed information:
-Node path: "Player/BulletControl"
-Asset url: "db://assets/Prefebs/Player.prefab"
-Script UUID: "aeacaa22-a956-4f28-9869-909469fe0ed2"
-Class ID: "aeacaoiqVZPKJhpkJRp/g7S"
-
-2021-05-20T10:50:58.938Z - warn: The 'type' attribute of 'Level1._obj' is undefined when loading script
-2021-05-20T10:50:58.979Z - warn: Script attached to "BlueBullet" in prefab "BlueBullet.prefab" is missing or invalid. Detailed information:
-Node path: "BlueBullet"
-Asset url: "db://assets/Prefebs/BlueBullet.prefab"
-Script UUID: "8f479874-04e7-45f6-acaa-75b5180ac7a0"
-Class ID: "8f479h0BOdF9qyqdbUYCseg"
-
-2021-05-20T10:50:58.982Z - warn: Script attached to "BulletControl" in prefab "Player.prefab" is missing or invalid. Detailed information:
-Node path: "Player/BulletControl"
-Asset url: "db://assets/Prefebs/Player.prefab"
-Script UUID: "aeacaa22-a956-4f28-9869-909469fe0ed2"
-Class ID: "aeacaoiqVZPKJhpkJRp/g7S"
-
-2021-05-20T10:50:59.157Z - warn: The 'type' attribute of 'Level1._obj' is undefined when loading script
-2021-05-20T10:50:59.212Z - warn: Script attached to "BlueBullet" in prefab "BlueBullet.prefab" is missing or invalid. Detailed information:
-Node path: "BlueBullet"
-Asset url: "db://assets/Prefebs/BlueBullet.prefab"
-Script UUID: "8f479874-04e7-45f6-acaa-75b5180ac7a0"
-Class ID: "8f479h0BOdF9qyqdbUYCseg"
-
-2021-05-20T10:50:59.216Z - warn: Script attached to "BulletControl" in prefab "Player.prefab" is missing or invalid. Detailed information:
-Node path: "Player/BulletControl"
-Asset url: "db://assets/Prefebs/Player.prefab"
-Script UUID: "aeacaa22-a956-4f28-9869-909469fe0ed2"
-Class ID: "aeacaoiqVZPKJhpkJRp/g7S"
-
-2021-05-20T10:50:59.382Z - warn: The 'type' attribute of 'Level1._obj' is undefined when loading script
-2021-05-20T10:50:59.437Z - warn: Script attached to "BlueBullet" in prefab "BlueBullet.prefab" is missing or invalid. Detailed information:
-Node path: "BlueBullet"
-Asset url: "db://assets/Prefebs/BlueBullet.prefab"
-Script UUID: "8f479874-04e7-45f6-acaa-75b5180ac7a0"
-Class ID: "8f479h0BOdF9qyqdbUYCseg"
-
-2021-05-20T10:50:59.464Z - warn: Script attached to "BulletControl" in prefab "Player.prefab" is missing or invalid. Detailed information:
-Node path: "Player/BulletControl"
-Asset url: "db://assets/Prefebs/Player.prefab"
-Script UUID: "aeacaa22-a956-4f28-9869-909469fe0ed2"
-Class ID: "aeacaoiqVZPKJhpkJRp/g7S"
-
+2021-05-20T14:47:52.310Z - normal: Load ~/.CocosCreator/settings.json
+2021-05-20T14:47:53.689Z - normal: Initializing Asset Database
+2021-05-20T14:47:53.694Z - normal: checking language setting...
+2021-05-20T14:47:53.695Z - normal: Language: en
+2021-05-20T14:47:54.657Z - success: preview server running at http://localhost:7456
+2021-05-20T14:47:54.661Z - success: protocol editor-framework registered
+2021-05-20T14:47:54.661Z - success: protocol app registered
+2021-05-20T14:47:54.661Z - success: protocol theme registered
+2021-05-20T14:47:54.661Z - success: protocol packages registered
+2021-05-20T14:47:54.662Z - success: protocol uuid registerred
+2021-05-20T14:47:54.662Z - success: protocol db registerred
+2021-05-20T14:47:54.662Z - success: protocol thumbnail registerred
+2021-05-20T14:47:54.662Z - success: protocol unpack registerred
+2021-05-20T14:47:54.662Z - success: protocol disable-commonjs registerred
+2021-05-20T14:47:57.657Z - normal: failed to connect login server due to request timeout
+2021-05-20T14:47:57.658Z - normal: Check project C:\Users\samsung\MyGitHub\LastGame
+2021-05-20T14:47:57.660Z - normal: Initializing project C:\Users\samsung\MyGitHub\LastGame
+2021-05-20T14:47:58.127Z - normal: Initializing Cocos2d
+2021-05-20T14:47:59.213Z - normal: Initializing engine extends
+2021-05-20T14:47:59.253Z - success: alipay-adapter loaded
+2021-05-20T14:47:59.260Z - success: asset-db-debugger loaded
+2021-05-20T14:47:59.263Z - success: baidu-adapter loaded
+2021-05-20T14:47:59.266Z - success: color-picker loaded
+2021-05-20T14:47:59.425Z - success: fb-audience-network loaded
+2021-05-20T14:47:59.547Z - success: fb-live-stream loaded
+2021-05-20T14:47:59.556Z - success: google-play-instant loaded
+2021-05-20T14:47:59.563Z - success: huawei-runtime loaded
+2021-05-20T14:47:59.809Z - success: cpk-publish loaded
+2021-05-20T14:47:59.810Z - success: jsb-adapter loaded
+2021-05-20T14:47:59.816Z - success: oppo-runtime loaded
+2021-05-20T14:47:59.820Z - success: package-manager loaded
+2021-05-20T14:47:59.986Z - success: qqplay-adapter loaded
+2021-05-20T14:47:59.989Z - success: runtime-dev-tools loaded
+2021-05-20T14:47:59.994Z - success: sdkbox loaded
+2021-05-20T14:47:59.999Z - success: tester loaded
+2021-05-20T14:48:00.002Z - success: ui-kit-preview-extra loaded
+2021-05-20T14:48:00.005Z - success: ui-kit-preview loaded
+2021-05-20T14:48:00.008Z - success: ui-kit loaded
+2021-05-20T14:48:00.019Z - success: vivo-runtime loaded
+2021-05-20T14:48:00.020Z - success: weapp-adapter loaded
+2021-05-20T14:48:00.022Z - success: xiaomi-adapter loaded
+2021-05-20T14:48:00.026Z - success: alipay-minigame loaded
+2021-05-20T14:48:00.079Z - success: assets loaded
+2021-05-20T14:48:00.081Z - success: builder loaded
+2021-05-20T14:48:00.398Z - success: cocos-services loaded
+2021-05-20T14:48:00.404Z - success: console loaded
+2021-05-20T14:48:00.450Z - success: fb-instant-games loaded
+2021-05-20T14:48:00.454Z - success: game-window loaded
+2021-05-20T14:48:00.456Z - success: google-instant-games loaded
+2021-05-20T14:48:00.460Z - success: hierarchy loaded
+2021-05-20T14:48:00.463Z - success: inspector loaded
+2021-05-20T14:48:00.465Z - success: keystore loaded
+2021-05-20T14:48:00.471Z - success: node-library loaded
+2021-05-20T14:48:00.472Z - success: package-asset loaded
+2021-05-20T14:48:00.474Z - success: preferences loaded
+2021-05-20T14:48:00.475Z - success: project-exporter loaded
+2021-05-20T14:48:00.477Z - success: project-importer loaded
+2021-05-20T14:48:00.480Z - success: project-settings loaded
+2021-05-20T14:48:00.485Z - success: scene loaded
+2021-05-20T14:48:00.487Z - success: simulator-debugger loaded
+2021-05-20T14:48:00.488Z - success: sprite-editor loaded
+2021-05-20T14:48:00.491Z - success: store loaded
+2021-05-20T14:48:00.497Z - success: timeline loaded
+2021-05-20T14:48:00.502Z - success: xiaomi-runtime loaded
+2021-05-20T14:48:01.908Z - normal: Loading packages
+2021-05-20T14:48:01.923Z - normal: Watching packages
+2021-05-20T14:48:02.625Z - normal: Run Application
+2021-05-20T14:48:04.337Z - info: Cocos Services load base data!
+2021-05-20T14:53:22.641Z - warn: Script attached to "ship1" in prefab "ship1.prefab" is missing or invalid. Detailed information:
+Node path: "ship1"
+Asset url: "db://assets/Prefebs/ship1.prefab"
+Script UUID: "eedc47b5-d911-4fb3-a805-19bfd8aaf2d1"
+Class ID: "eedc4e12RFPs6gFGb/YqvLR"
+
+2021-05-20T14:57:27.266Z - warn: Script attached to "ship1" in prefab "ship1.prefab" is missing or invalid. Detailed information:
+Node path: "ship1"
+Asset url: "db://assets/Prefebs/ship1.prefab"
+Script UUID: "eedc47b5-d911-4fb3-a805-19bfd8aaf2d1"
+Class ID: "eedc4e12RFPs6gFGb/YqvLR"
+
+2021-05-20T14:59:56.038Z - info: Only the prefab node "perfabShootThreeWay" and its child nodes are saved.
+2021-05-20T15:00:16.210Z - info: Only the prefab node "prefabShootVertical" and its child nodes are saved.
+2021-05-20T15:00:16.414Z - info: Only the prefab node "prefabShootVertical" and its child nodes are saved.
+2021-05-20T15:00:57.698Z - warn: Script attached to "ship1" in prefab "ship1.prefab" is missing or invalid. Detailed information:
+Node path: "ship1"
+Asset url: "db://assets/Prefebs/ship1.prefab"
+Script UUID: "eedc47b5-d911-4fb3-a805-19bfd8aaf2d1"
+Class ID: "eedc4e12RFPs6gFGb/YqvLR"
+
+2021-05-20T15:21:45.001Z - info: Only the prefab node "prefabShootVertical" and its child nodes are saved.
+2021-05-20T15:37:36.018Z - info: Only the prefab node "prefabShootPlayer" and its child nodes are saved.
+2021-05-20T15:37:36.222Z - info: Only the prefab node "prefabShootPlayer" and its child nodes are saved.
+2021-05-20T15:49:37.395Z - info: Only the prefab node "perfabShootThreeWay" and its child nodes are saved.
+2021-05-20T15:49:37.601Z - info: Only the prefab node "perfabShootThreeWay" and its child nodes are saved.
+2021-05-20T16:00:23.299Z - warn: Script attached to "ship1" in prefab "ship1.prefab" is missing or invalid. Detailed information:
+Node path: "ship1"
+Asset url: "db://assets/Prefebs/ship1.prefab"
+Script UUID: "eedc47b5-d911-4fb3-a805-19bfd8aaf2d1"
+Class ID: "eedc4e12RFPs6gFGb/YqvLR"
+
+2021-05-20T16:03:26.902Z - warn: [db-task][import] uuid collision, the uuid(a1f70b73-bc70-4d41-af8b-d015d76e6073) for C:\Users\samsung\MyGitHub\LastGame\assets\Prefebs\enemyBullet.js is already used. A new uuid(1dfee5cd-6306-4b2f-beb0-409337c1db2a) will be assigned.
+2021-05-20T16:03:27.782Z - warn: Script attached to "ufoRed" in prefab "ufoRed.prefab" is missing or invalid. Detailed information:
+Node path: "ufoRed"
+Asset url: "db://assets/Prefebs/ufoRed.prefab"
+Script UUID: "a1f70b73-bc70-4d41-af8b-d015d76e6073"
+Class ID: "a1f70tzvHBNQa+L0BXXbmBz"
+
+2021-05-20T16:03:27.806Z - warn: Script attached to "ship1" in prefab "ship1.prefab" is missing or invalid. Detailed information:
+Node path: "ship1"
+Asset url: "db://assets/Prefebs/ship1.prefab"
+Script UUID: "eedc47b5-d911-4fb3-a805-19bfd8aaf2d1"
+Class ID: "eedc4e12RFPs6gFGb/YqvLR"
+
+2021-05-20T16:05:01.887Z - warn: Script attached to "ship1" in prefab "ship1.prefab" is missing or invalid. Detailed information:
+Node path: "ship1"
+Asset url: "db://assets/Prefebs/ship1.prefab"
+Script UUID: "eedc47b5-d911-4fb3-a805-19bfd8aaf2d1"
+Class ID: "eedc4e12RFPs6gFGb/YqvLR"
+
+2021-05-20T16:05:19.638Z - warn: Script attached to "ship1" in prefab "ship1.prefab" is missing or invalid. Detailed information:
+Node path: "ship1"
+Asset url: "db://assets/Prefebs/ship1.prefab"
+Script UUID: "eedc47b5-d911-4fb3-a805-19bfd8aaf2d1"
+Class ID: "eedc4e12RFPs6gFGb/YqvLR"
+
+2021-05-20T16:06:53.410Z - warn: Script attached to "ship1" in prefab "ship1.prefab" is missing or invalid. Detailed information:
+Node path: "ship1"
+Asset url: "db://assets/Prefebs/ship1.prefab"
+Script UUID: "eedc47b5-d911-4fb3-a805-19bfd8aaf2d1"
+Class ID: "eedc4e12RFPs6gFGb/YqvLR"
+
+2021-05-20T16:07:45.304Z - warn: Script attached to "ship1" in prefab "ship1.prefab" is missing or invalid. Detailed information:
+Node path: "ship1"
+Asset url: "db://assets/Prefebs/ship1.prefab"
+Script UUID: "eedc47b5-d911-4fb3-a805-19bfd8aaf2d1"
+Class ID: "eedc4e12RFPs6gFGb/YqvLR"
+
+2021-05-20T16:09:59.124Z - warn: Script attached to "ship1" in prefab "ship1.prefab" is missing or invalid. Detailed information:
+Node path: "ship1"
+Asset url: "db://assets/Prefebs/ship1.prefab"
+Script UUID: "eedc47b5-d911-4fb3-a805-19bfd8aaf2d1"
+Class ID: "eedc4e12RFPs6gFGb/YqvLR"
+
+2021-05-20T16:10:16.994Z - warn: Script attached to "ship1" in prefab "ship1.prefab" is missing or invalid. Detailed information:
+Node path: "ship1"
+Asset url: "db://assets/Prefebs/ship1.prefab"
+Script UUID: "eedc47b5-d911-4fb3-a805-19bfd8aaf2d1"
+Class ID: "eedc4e12RFPs6gFGb/YqvLR"
+
+2021-05-20T16:13:02.017Z - info: Only the prefab node "perfabShootThreeWay" and its child nodes are saved.

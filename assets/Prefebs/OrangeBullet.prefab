@@ -141,7 +141,9 @@
     },
     "_enabled": true,
     "_speedBullet": 1000,
-    "laserGreenPre": null,
+    "laserGreenPre": {
+      "__uuid__": "20802e31-0145-42ce-8bdb-8b3188667d1a"
+    },
     "_id": ""
   },
   {

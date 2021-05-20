@@ -27,9 +27,9 @@ cc.Class({
     },
 
     greenBulletType(){
-        this._speedBullet = 250
+        this._speedBullet = 400
         cc.tween(this.node)
-            .by(1, {y: this._speedBullet})
+            .by(0.6, {y: this._speedBullet})
             .call(() => this.node.getComponent(cc.Animation).play())
             .start()
     },
@@ -52,13 +52,13 @@ cc.Class({
         }
         else if(this.node.angle == 35){
             cc.tween(this.node)
-            .by(1, {x: -this._speedBullet , y: this._speedBullet})
+            .by(1, {x: -this._speedBullet, y: this._speedBullet})
             .call(() => this.node.destroy())
             .start()
         }
         else if(this.node.angle == -35){
             cc.tween(this.node)
-            .by(1, {x: this._speedBullet , y: this._speedBullet})
+            .by(1, {x: this._speedBullet, y: this._speedBullet})
             .call(() => this.node.destroy())
             .start()
         }

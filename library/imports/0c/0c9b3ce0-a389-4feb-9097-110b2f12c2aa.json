@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Wraith_01_Idle_000",
+    "texture": "cccb4d97-e9ac-4d18-8d71-9d56fae40e6e",
+    "atlas": "",
+    "rect": [
+      151,
+      41,
+      193,
+      285
+    ],
+    "offset": [
+      -12.5,
+      26.5
+    ],
+    "originalSize": [
+      520,
+      420
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

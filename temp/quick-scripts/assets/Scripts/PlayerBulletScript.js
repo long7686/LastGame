@@ -30,6 +30,7 @@ cc.Class({
     },
     typeOfBullet: function typeOfBullet(greenFlag, blueFlag, redFlag, orangeFlag) {
         this._canShootFlag = true;
+        this._countDown = 0;
         if (greenFlag) {
             this._currentPre = this.greenBulletPre;
         } else if (blueFlag) {
@@ -73,7 +74,7 @@ cc.Class({
     countTimeShoot: function countTimeShoot() {
         if (this._currentPre === this.greenBulletPre) {
             this._countDown += 1;
-            if (this._countDown === 5) {
+            if (this._countDown === 20) {
                 this._canShootFlag = true;
             }
         } else if (this._currentPre === this.blueBulletPre) {
@@ -83,12 +84,12 @@ cc.Class({
             }
         } else if (this._currentPre === this.redBulletPre) {
             this._countDown += 1;
-            if (this._countDown === 5) {
+            if (this._countDown === 40) {
                 this._canShootFlag = true;
             }
         } else if (this._currentPre === this.orangeBulletPre) {
             this._countDown += 1;
-            if (this._countDown === 5) {
+            if (this._countDown === 30) {
                 this._canShootFlag = true;
             }
         } else {

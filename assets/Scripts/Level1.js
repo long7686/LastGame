@@ -4,13 +4,7 @@ cc.Class({
     properties: {
         pre1: cc.Prefab,
         pre2: cc.Prefab,
-        _map :null, 
-        _positonMap: null,
-        _obj:{
-            default: null,
-            type: cc.node,
-            idNumber: 0
-        }
+        _numberOfEnemies:0,
     },
 
     start () {
@@ -23,11 +17,12 @@ cc.Class({
             cc.log(err)
             return;
         }
-        this._map = obj
-        this._positonMap = obj.json.Level2.wave2.map
-        let map = obj.json.Level1.wave2.map
-        let mapCol = obj.json.Level1.wave2.collumn
-        let mapRow = obj.json.Level1.wave2.row
+
+        let map = obj.json.Level1.wave1.map
+        let mapCol = obj.json.Level1.wave1.collumn
+        let mapRow = obj.json.Level1.wave1.row
+        let numberOfEnemies = obj.json.Level1.wave1.numberOfEnemies
+       
         this.renderWave(map, mapCol, mapRow)
     },
 
@@ -38,29 +33,23 @@ cc.Class({
         for (let i = 0; i <= row-1; i++){
              for (let j = 0; j <= collumn-1; j++){
                 if (map[index]=== 1){
-                    this._obj = cc.instantiate(this.pre1)
-                    this._obj.parent = cc.Canvas.instance.node
-                    this._obj.position = cc.v2((canvasWid/collumn) * j- 420, (-(canvasHei/(2*row))*i)+250)
+                    let enemy = cc.instantiate(this.pre1)
+                    enemy.parent = cc.Canvas.instance.node
+                    enemy.position = cc.v2((canvasWid/collumn) * j- 420, (-(canvasHei/(2*row))*i)+250)
                 }
                 else if (map[index]=== 2){
-                    this._obj = cc.instantiate(this.pre2)
-                    this._obj.parent = cc.Canvas.instance.node
-                    this._obj.position = cc.v2((canvasWid/collumn) * j- 420, (-(canvasHei/(2*row))*i)+250)
+                    let enemy = cc.instantiate(this.pre2)
+                    enemy.parent = cc.Canvas.instance.node
+                    enemy.position = cc.v2((canvasWid/collumn) * j- 420, (-(canvasHei/(2*row))*i)+250)
                 }
                 index++
             }   
         }
+    },
+
+    controlWave(){
+
     }
 
 
-    // actionEnemy(target){
-    //     cc.tween(target)
-    //         .repeatForever(
-    //             cc.tween(target)
-    //             .to(.5,{scale:1.2})
-    //           .to(.5,{scale:1})
-    //         )
-            
-    //         .start()
-    // },
 });

@@ -27,8 +27,8 @@ cc.Class({
     greenBulletType: function greenBulletType() {
         var _this = this;
 
-        this._speedBullet = 250;
-        cc.tween(this.node).by(1, { y: this._speedBullet }).call(function () {
+        this._speedBullet = 400;
+        cc.tween(this.node).by(0.6, { y: this._speedBullet }).call(function () {
             return _this.node.getComponent(cc.Animation).play();
         }).start();
     },

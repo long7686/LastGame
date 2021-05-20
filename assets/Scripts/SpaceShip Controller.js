@@ -50,7 +50,6 @@ cc.Class({
         }
     },
 
-
     onKeyDown(event){
         this.spriteFrameGreen._flag = false
         this.spriteFrameBlue._flag = false
