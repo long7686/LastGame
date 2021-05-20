@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "laserBlue16",
+    "texture": "7fb2ee2c-a67f-4ac4-9dca-3a78c6dcb49d",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      13,
+      54
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      13,
+      54
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

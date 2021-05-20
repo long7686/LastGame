@@ -1,0 +1,34 @@
+{
+  "ver": "2.3.3",
+  "uuid": "e8d0b28d-809b-4e19-b18c-ea97c2bdafcd",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "platformSettings": {},
+  "subMetas": {
+    "playerShip1_blue": {
+      "ver": "1.0.4",
+      "uuid": "d198924d-fca8-498f-8e1a-6cca05278793",
+      "rawTextureUuid": "e8d0b28d-809b-4e19-b18c-ea97c2bdafcd",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 99,
+      "height": 75,
+      "rawWidth": 99,
+      "rawHeight": 75,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

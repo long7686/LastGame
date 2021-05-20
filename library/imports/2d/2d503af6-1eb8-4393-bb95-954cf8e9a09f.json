@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "playerShip1_orange",
+    "texture": "ce39dbdb-ccd4-428a-843f-ede1977e7f73",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      99,
+      75
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      99,
+      75
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

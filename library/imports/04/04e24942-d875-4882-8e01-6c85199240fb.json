@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "[removal.ai]_tmp-60a5142073099_SILVMP_01",
+    "texture": "0f8e7b66-cb72-4d2f-bf40-d686063508d1",
+    "atlas": "8a03692f-0914-49b5-ad82-f536293bcc06",
+    "rect": [
+      0,
+      282,
+      88,
+      193
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      88,
+      193
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
