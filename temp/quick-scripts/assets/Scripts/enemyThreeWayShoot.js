@@ -13,7 +13,8 @@ cc.Class({
         moveToY: 0, // vị trí y bay đến
         prefabBullet: cc.Prefab,
         _timerShoot: 0,
-        maxHealth: 100
+        maxHealth: 100,
+        healthBar: cc.ProgressBar
     },
 
     start: function start() {
@@ -65,6 +66,9 @@ cc.Class({
         if (this.maxHealth <= 0) {
             this.dead();
         }
+    },
+    getDamage: function getDamage() {
+        this.healthBar.getComponent(cc.ProgressBar).progress = this.maxHealth / 100;
     },
     dead: function dead() {
         Emitter.instance.emit("countEnemies");

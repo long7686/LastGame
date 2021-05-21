@@ -8,6 +8,7 @@ cc.Class({
         prefabBullet : cc.Prefab,
         _timerShoot: 0,
         maxHealth :100,
+        healthBar: cc.ProgressBar
     },
 
     start () {
@@ -87,8 +88,12 @@ cc.Class({
         }
     },
 
+    getDamage(){
+        this.healthBar.getComponent(cc.ProgressBar).progress= this.maxHealth/100
+    },
+
     dead(){
         Emitter.instance.emit("countEnemies")
-        this.node.destroy()
+         this.node.destroy()
     }
 });

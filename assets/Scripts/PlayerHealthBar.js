@@ -15,11 +15,7 @@ cc.Class({
     },
 
     health(playerHealth){
-        this.node.getComponent(cc.ProgressBar).progress = playerHealth /100
-        // this.node.progress
-    },
-
-    update (dt) {
+        this.node.getComponent(cc.ProgressBar).progress = playerHealth / 100
         if ( this.node.getComponent(cc.ProgressBar).progress >=0.7 ){
             this.node.getChildByName("bar").color = cc.Color.GREEN
         }
@@ -29,5 +25,10 @@ cc.Class({
         else{
             this.node.getChildByName("bar").color = cc.Color.RED
         }
+
+    },
+
+    update (dt) {
+       
     },
 });

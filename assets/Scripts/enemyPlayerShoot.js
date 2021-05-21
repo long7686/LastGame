@@ -6,6 +6,7 @@ cc.Class({
         prefabBullet : cc.Prefab,
         _timerShoot : 0,
         maxHealth:100,
+        healthBar: cc.ProgressBar
     },
 
     // LIFE-CYCLE CALLBACKS:
@@ -79,6 +80,10 @@ cc.Class({
         if (this.maxHealth <= 0){
             this.dead()
         }
+    },
+
+    getDamage(){
+        this.healthBar.getComponent(cc.ProgressBar).progress= this.maxHealth/100
     },
 
     dead(){

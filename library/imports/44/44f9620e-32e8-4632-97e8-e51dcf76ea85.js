@@ -17,9 +17,6 @@ cc.Class({
     },
     health: function health(playerHealth) {
         this.node.getComponent(cc.ProgressBar).progress = playerHealth / 100;
-        // this.node.progress
-    },
-    update: function update(dt) {
         if (this.node.getComponent(cc.ProgressBar).progress >= 0.7) {
             this.node.getChildByName("bar").color = cc.Color.GREEN;
         } else if (this.node.getComponent(cc.ProgressBar).progress < 0.7 && this.node.getComponent(cc.ProgressBar).progress > 0.3) {
@@ -27,7 +24,8 @@ cc.Class({
         } else {
             this.node.getChildByName("bar").color = cc.Color.RED;
         }
-    }
+    },
+    update: function update(dt) {}
 });
 
 cc._RF.pop();

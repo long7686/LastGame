@@ -113,6 +113,7 @@ cc.Class({
     },
     getDamge: function getDamge() {
         Emitter.instance.emit("healthbar", this.playerHealth);
+        cc.tween(this.node).to(0.1, { opacity: 155 }).to(0.1, { opacity: 255 }).to(0.1, { opacity: 155 }).to(0.1, { opacity: 255 }).to(0.1, { opacity: 155 }).to(0.1, { opacity: 255 }).start();
     },
     dead: function dead() {
         this.node.destroy();
