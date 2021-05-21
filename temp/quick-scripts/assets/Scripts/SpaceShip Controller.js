@@ -34,11 +34,13 @@ cc.Class({
             default: null,
             type: cc.SpriteFrame,
             _flag: false
-        }
+        },
+        timing: cc.Label,
+        nodeEndGame: cc.Node
     },
 
     onLoad: function onLoad() {
-        cc.Canvas.instance.node.on("mousemove", this.getMousePosition, this);
+        cc.Canvas.instance.node.on("mousemove", this.getMousePosition.bind(this));
         this.node.on("mousedown", this.shoot, this);
         cc.systemEvent.on(cc.SystemEvent.EventType.KEY_DOWN, this.onKeyDown, this);
         cc.systemEvent.on(cc.SystemEvent.EventType.KEY_UP, this.onKeyUp, this);
@@ -53,27 +55,29 @@ cc.Class({
         }
     },
     onKeyDown: function onKeyDown(event) {
-        this.spriteFrameGreen._flag = false;
-        this.spriteFrameBlue._flag = false;
-        this.spriteFrameRed._flag = false;
-        this.spriteFrameOrange._flag = false;
-        switch (event.keyCode) {
-            case cc.macro.KEY.z:
-                this.spriteFrameGreen._flag = true;
-                this.changeSkin();
-                break;
-            case cc.macro.KEY.x:
-                this.spriteFrameBlue._flag = true;
-                this.changeSkin();
-                break;
-            case cc.macro.KEY.c:
-                this.spriteFrameRed._flag = true;
-                this.changeSkin();
-                break;
-            case cc.macro.KEY.v:
-                this.spriteFrameOrange._flag = true;
-                this.changeSkin();
-                break;
+        if (this.node !== null) {
+            this.spriteFrameGreen._flag = false;
+            this.spriteFrameBlue._flag = false;
+            this.spriteFrameRed._flag = false;
+            this.spriteFrameOrange._flag = false;
+            switch (event.keyCode) {
+                case cc.macro.KEY.z:
+                    this.spriteFrameGreen._flag = true;
+                    this.changeSkin();
+                    break;
+                case cc.macro.KEY.x:
+                    this.spriteFrameBlue._flag = true;
+                    this.changeSkin();
+                    break;
+                case cc.macro.KEY.c:
+                    this.spriteFrameRed._flag = true;
+                    this.changeSkin();
+                    break;
+                case cc.macro.KEY.v:
+                    this.spriteFrameOrange._flag = true;
+                    this.changeSkin();
+                    break;
+            }
         }
     },
     update: function update(dt) {
@@ -98,7 +102,7 @@ cc.Class({
         }
     },
     onCollisionEnter: function onCollisionEnter(other, self) {
-        if (other.node.group == "Enemies") {
+        if (other.node.group == "Enemies" || other.node.group == "Boss") {
             this.dead();
         } else if (other.node.group == "Enemies Bullet") {
             other.node.destroy();
@@ -116,6 +120,10 @@ cc.Class({
         cc.tween(this.node).to(0.1, { opacity: 155 }).to(0.1, { opacity: 255 }).to(0.1, { opacity: 155 }).to(0.1, { opacity: 255 }).to(0.1, { opacity: 155 }).to(0.1, { opacity: 255 }).start();
     },
     dead: function dead() {
+        var totalTime = this.timing.getComponent('updatingTime').totalTime;
+        this.nodeEndGame.active = true;
+        Emitter.instance.emit("playerDead");
+        Emitter.instance.emit("endGame", totalTime);
         this.node.destroy();
     }
 });

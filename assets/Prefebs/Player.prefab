@@ -25,7 +25,7 @@
       }
     ],
     "_active": true,
-    "_level": 3,
+    "_level": 1,
     "_components": [
       {
         "__id__": 16
@@ -566,6 +566,7 @@
     },
     "_enabled": true,
     "_mousePos": null,
+    "playerHealth": 100,
     "_currentSkin": null,
     "spriteFrameGreen": {
       "__uuid__": "89cfda61-9fa9-49cb-9812-08f28ca613f3"
@@ -579,6 +580,8 @@
     "spriteFrameOrange": {
       "__uuid__": "2d503af6-1eb8-4393-bb95-954cf8e9a09f"
     },
+    "timing": null,
+    "nodeEndGame": null,
     "_id": ""
   },
   {

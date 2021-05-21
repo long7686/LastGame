@@ -9,13 +9,7 @@ cc.Class({
 
     properties: {},
 
-    // LIFE-CYCLE CALLBACKS:
-
-    // onLoad () {},
-
-    start: function start() {
-        cc.log(this.node.y, -this.node.height);
-    },
+    start: function start() {},
     update: function update(dt) {
         if (this.node.y > -this.node.height) {
             this.node.y -= 5;

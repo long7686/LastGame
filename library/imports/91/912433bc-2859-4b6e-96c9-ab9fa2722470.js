@@ -113,6 +113,9 @@ cc.Class({
                 other.node.getComponent("enemyPlayerShoot").maxHealth -= this.bulletDamge;
                 other.node.getComponent("enemyPlayerShoot").getDamage();
             }
+        } else if (other.node.group === "Boss") {
+            other.node.getComponent("boss1").maxHealth -= this.bulletDamge;
+            other.node.getComponent("boss1").getDamage();
         }
     },
     onCollisionStay: function onCollisionStay(other, self) {
@@ -120,11 +123,17 @@ cc.Class({
             if (other.node.group === "Enemies") {
                 if (other.node.getComponent("enemyVerticalShoot") != null) {
                     other.node.getComponent("enemyVerticalShoot").maxHealth -= this.bulletDamge;
+                    other.node.getComponent("enemyVerticalShoot").getDamage();
                 } else if (other.node.getComponent("enemyThreeWayShoot") != null) {
                     other.node.getComponent("enemyThreeWayShoot").maxHealth -= this.bulletDamge;
+                    other.node.getComponent("enemyThreeWayShoot").getDamage();
                 } else if (other.node.getComponent("enemyPlayerShoot") != null) {
                     other.node.getComponent("enemyPlayerShoot").maxHealth -= this.bulletDamge;
+                    other.node.getComponent("enemyPlayerShoot").getDamage();
                 }
+            } else if (other.node.group === "Boss") {
+                other.node.getComponent("boss1").maxHealth -= this.bulletDamge;
+                other.node.getComponent("boss1").getDamage();
             }
         }
     },

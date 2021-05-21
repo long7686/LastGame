@@ -14,18 +14,20 @@ cc.Class({
         jsonMap: null,
         waveID: 1,
         waveLabel: cc.Label,
+        boss: cc.Node,
+        _lastLabel: "this is Boss!!!"
     },
 
     onLoad(){
         let managerCollision = cc.director.getCollisionManager();
         managerCollision.enabled = true;
-        managerCollision.enabledDebugDraw = true
+        managerCollision.enabledDebugDraw = false
     },
 
     start () {
         Emitter.instance.registerEvent("countEnemies", this.controlWave.bind(this))
         cc.loader.loadRes("renderMap1.json", this.renderMap.bind(this)) 
-        cc.log()
+    
     },
 
     renderMap(err, obj){
@@ -92,7 +94,9 @@ cc.Class({
     controlWave(){
         this._numberOfEnemiesDead++
         if (this._numberOfEnemiesDead === this.numberOfEnemies){
-            this.waveID++
+            if(this.waveID !== 6){
+                this.waveID++
+            }
             this.waveList()
             this._numberOfEnemiesDead =0
             //call function label wave and render wave
@@ -101,6 +105,8 @@ cc.Class({
 
 
     waveList(){
+        let isLastWave = false
+
         if (this.waveID === 2){
             this._map = this.jsonMap.json.Level1.wave2.map
             this._mapColl = this.jsonMap.json.Level1.wave2.collumn
@@ -125,20 +131,46 @@ cc.Class({
             this._mapRow = this.jsonMap.json.Level1.wave5.row
             this.numberOfEnemies = this.jsonMap.json.Level1.wave5.numberOfEnemies
         }
-
-        this.waveLabel.string = "Wave " + this.waveID
-        this.waveLabel.node.active = true;
-        this.waveLabel.node.scale = 0
-        cc.tween(this.waveLabel.node)
-        .to(1,{scale: 1})
-        .to(.5,{opacity: 0})
-        .to(.5,{opacity: 255})
-        .to(.5,{opacity: 0})
-        .to(.5,{opacity: 255})
-        .to(1,{scale: 0})
-        .call(() => this.waveLabel.node.active = false)
-        .call(() => this.renderWave(this._map, this._mapColl, this._mapRow))
-        .start()
+        else if (this.waveID === 6){
+            isLastWave = true
+            this._map = this.jsonMap.json.Level1.wave6.map
+            this._mapColl = this.jsonMap.json.Level1.wave6.collumn
+            this._mapRow = this.jsonMap.json.Level1.wave6.row
+            this.numberOfEnemies = this.jsonMap.json.Level1.wave6.numberOfEnemies
+        }
+        if(!isLastWave){
+            this.waveLabel.string = "Wave " + this.waveID
+            this.waveLabel.node.active = true;
+            this.waveLabel.node.scale = 0
+            cc.tween(this.waveLabel.node)
+            .to(1,{scale: 1})
+            .to(.5,{opacity: 0})
+            .to(.5,{opacity: 255})
+            .to(.5,{opacity: 0})
+            .to(.5,{opacity: 255})
+            .to(1,{scale: 0})
+            .call(() => this.waveLabel.node.active = false)
+            .call(() => this.renderWave(this._map, this._mapColl, this._mapRow))
+            .start()
+        }
+        else{
+            this.waveLabel.string = this._lastLabel
+            this.waveLabel.node.active = true;
+            this.waveLabel.node.scale = 0
+            cc.tween(this.waveLabel.node)
+            .to(1,{scale: 1})
+            .to(.5,{opacity: 0})
+            .to(.5,{opacity: 255})
+            .to(.5,{opacity: 0})
+            .to(.5,{opacity: 255})
+            .to(1,{scale: 0})
+            .call(()=> this._lastLabel="")
+            .call(() => this.waveLabel.node.active = false)
+            .call(() => this.renderWave(this._map, this._mapColl, this._mapRow))
+            .call(()=> this.boss.active = true)
+            .start()
+        }
+       
     }
 
 });

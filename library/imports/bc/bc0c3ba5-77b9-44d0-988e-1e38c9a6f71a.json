@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "Wraith_01_Attack_004",
+    "texture": "57870f7f-1da6-451c-969d-b73b4da4b6b9",
+    "atlas": "fbac1881-331d-4f5f-9406-a96ea0c8f532",
+    "rect": [
+      0,
+      549,
+      203,
+      275
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      520,
+      420
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

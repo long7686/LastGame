@@ -6,6 +6,8 @@
       true,
       false,
       true,
+      true,
+      null,
       true
     ],
     [
@@ -16,7 +18,11 @@
     [
       false,
       true,
-      false
+      false,
+      null,
+      null,
+      null,
+      true
     ],
     [
       true,
@@ -34,6 +40,15 @@
     [
       false,
       false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
       false,
       false,
       false,
@@ -61,7 +76,8 @@
     "Player Bullet",
     "Enemies Bullet",
     "Items",
-    "Default"
+    "Default",
+    "Boss"
   ],
   "last-module-event-record-time": 0,
   "simulator-orientation": false,

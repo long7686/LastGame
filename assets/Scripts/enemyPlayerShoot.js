@@ -1,6 +1,6 @@
 const Emitter = require("EventsListener")
 cc.Class({
-    extends: require("enemyNoShoot"),
+    extends: cc.Component,
 
     properties: {
         prefabBullet : cc.Prefab,
@@ -15,6 +15,7 @@ cc.Class({
 
     start () {
         this.moving()
+        //Emitter.instance.registerEvent("playerDead", this.dead.bind(this))
     },
 
     moving(){
@@ -64,26 +65,29 @@ cc.Class({
         
         enemyBullet.getComponent('bulletPlayer').bulletToX = bulletToX;
         enemyBullet.getComponent('bulletPlayer').bulletToY = bulletToY;
-        // cc.log(bulletToX, bulletToY)
 
     },
 
     update (dt) {
         this._timerShoot+= dt;
         if(this._timerShoot >= 1){
-            let positionXPlayer = this.node.parent.getChildByName('Main Game').getChildByName('Player').x;
-            let positionYPlayer = this.node.parent.getChildByName('Main Game').getChildByName('Player').y;
-            //cc.log(this.node.parent);
-            this.shoot(positionXPlayer, positionYPlayer);
+            let playerPosition = this.node.parent.getChildByName('Main Game').getChildByName('Player');
+            if(playerPosition != null){
+                let positionXPlayer = playerPosition.x;
+                let positionYPlayer = playerPosition.y;
+                this.shoot(positionXPlayer, positionYPlayer);
+                
+            }
             this._timerShoot= 0;
         }
         if (this.maxHealth <= 0){
             this.dead()
-        }
+        }    
+       
     },
 
     getDamage(){
-        this.healthBar.getComponent(cc.ProgressBar).progress= this.maxHealth/100
+        this.healthBar.getComponent(cc.ProgressBar).progress= this.maxHealth/100 
     },
 
     dead(){

@@ -8,17 +8,17 @@
       "wave1": {
         "map": [
           1,
-          1,
-          1,
-          0,
           0,
           1,
+          0,
           1,
-          1
+          0,
+          1,
+          0
         ],
-        "numberOfEnemies": 6,
+        "numberOfEnemies": 4,
         "collumn": 8,
-        "row": 5
+        "row": 1
       },
       "wave2": {
         "map": [
@@ -33,13 +33,13 @@
           0,
           2,
           0,
-          0,
+          2,
           0,
           2,
           0,
           0
         ],
-        "numberOfEnemies": 6,
+        "numberOfEnemies": 7,
         "collumn": 8,
         "row": 2
       },
@@ -92,65 +92,64 @@
           2,
           0,
           2,
+          3,
           0,
           0,
           0,
           0,
           0,
           0,
+          3
+        ],
+        "numberOfEnemies": 14,
+        "collumn": 8,
+        "row": 3
+      },
+      "wave5": {
+        "map": [
+          2,
+          0,
+          2,
+          0,
+          2,
+          2,
+          0,
+          2,
+          0,
+          1,
+          0,
+          3,
+          0,
+          3,
           0,
           0,
+          1,
           0,
+          1,
           0,
+          1,
           0,
-          0,
-          0,
-          0,
-          0,
+          1,
           0
         ],
         "numberOfEnemies": 12,
         "collumn": 8,
-        "row": 2
+        "row": 3
       },
-      "wave5": {
+      "wave6": {
         "map": [
           1,
-          2,
-          1,
-          2,
-          1,
-          2,
-          1,
-          2,
-          0,
-          2,
-          0,
-          2,
-          0,
-          2,
-          0,
-          2,
-          2,
-          0,
-          2,
-          0,
-          2,
           0,
           2,
           0,
           0,
           0,
-          0,
-          0,
-          0,
-          0,
-          0,
-          0
+          2,
+          1
         ],
-        "numberOfEnemies": 16,
+        "numberOfEnemies": 4,
         "collumn": 8,
-        "row": 4
+        "row": 1
       }
     }
   }

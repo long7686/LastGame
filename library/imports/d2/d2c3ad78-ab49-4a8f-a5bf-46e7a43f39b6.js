@@ -37,13 +37,13 @@ cc.Class({
         if (other.node.group === "Enemies") {
             if (other.node.getComponent("enemyVerticalShoot") != null) {
                 other.node.getComponent("enemyVerticalShoot").maxHealth -= this.bulletDamge;
-                cc.log(other.node.getComponent("enemyVerticalShoot").maxHealth);
+                other.node.getComponent("enemyVerticalShoot").getDamage();
             } else if (other.node.getComponent("enemyThreeWayShoot") != null) {
                 other.node.getComponent("enemyThreeWayShoot").maxHealth -= this.bulletDamge;
-                cc.log(other.node.getComponent("enemyThreeWayShoot").maxHealth);
+                other.node.getComponent("enemyThreeWayShoot").getDamage();
             } else if (other.node.getComponent("enemyPlayerShoot") != null) {
                 other.node.getComponent("enemyPlayerShoot").maxHealth -= this.bulletDamge;
-                cc.log(other.node.getComponent("enemyPlayerShoot").maxHealth);
+                other.node.getComponent("enemyPlayerShoot").getDamage();
             }
         }
     }

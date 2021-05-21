@@ -1,0 +1,44 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "boss1.plist",
+  "_objFlags": 0,
+  "_native": "",
+  "_spriteFrames": {
+    "Wraith_01_Attack_000": {
+      "__uuid__": "cae78cdf-c69e-49b6-b5b0-e2220ca2ed45"
+    },
+    "Wraith_01_Attack_001": {
+      "__uuid__": "94c9f1a4-5fcd-450f-b8aa-37cb96b93b10"
+    },
+    "Wraith_01_Attack_002": {
+      "__uuid__": "844f83c5-6175-4faf-a0b0-2d9c4514f57a"
+    },
+    "Wraith_01_Attack_003": {
+      "__uuid__": "97329395-dc0b-4dcf-b4e5-29094921f9e0"
+    },
+    "Wraith_01_Attack_004": {
+      "__uuid__": "bc0c3ba5-77b9-44d0-988e-1e38c9a6f71a"
+    },
+    "Wraith_01_Attack_005": {
+      "__uuid__": "4852323d-8461-49a1-9304-3ff8127151b3"
+    },
+    "Wraith_01_Attack_006": {
+      "__uuid__": "673c23f9-bcf2-4164-84c0-0538c699d275"
+    },
+    "Wraith_01_Attack_007": {
+      "__uuid__": "26406508-e02d-4c65-a5eb-f527141528b9"
+    },
+    "Wraith_01_Attack_008": {
+      "__uuid__": "6810a649-835b-4607-affb-03d6e3a746d9"
+    },
+    "Wraith_01_Attack_009": {
+      "__uuid__": "ad550578-fe5f-44b1-97b5-1ca54e2141e4"
+    },
+    "Wraith_01_Attack_010": {
+      "__uuid__": "134d4db3-5e23-4d76-a345-48ed578a97df"
+    },
+    "Wraith_01_Attack_011": {
+      "__uuid__": "28cde4d9-f393-426a-b964-96ebf1d16bde"
+    }
+  }
+}

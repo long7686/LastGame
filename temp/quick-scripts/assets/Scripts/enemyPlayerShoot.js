@@ -2,11 +2,11 @@
 cc._RF.push(module, 'c0d9ev+ZO9HEY96OYONk8JR', 'enemyPlayerShoot', __filename);
 // Scripts/enemyPlayerShoot.js
 
-"use strict";
+'use strict';
 
 var Emitter = require("EventsListener");
 cc.Class({
-    extends: require("enemyNoShoot"),
+    extends: cc.Component,
 
     properties: {
         prefabBullet: cc.Prefab,
@@ -21,6 +21,7 @@ cc.Class({
 
     start: function start() {
         this.moving();
+        //Emitter.instance.registerEvent("playerDead", this.dead.bind(this))
     },
     moving: function moving() {
         var _this = this;
@@ -50,15 +51,16 @@ cc.Class({
 
         enemyBullet.getComponent('bulletPlayer').bulletToX = bulletToX;
         enemyBullet.getComponent('bulletPlayer').bulletToY = bulletToY;
-        // cc.log(bulletToX, bulletToY)
     },
     update: function update(dt) {
         this._timerShoot += dt;
         if (this._timerShoot >= 1) {
-            var positionXPlayer = this.node.parent.getChildByName('Main Game').getChildByName('Player').x;
-            var positionYPlayer = this.node.parent.getChildByName('Main Game').getChildByName('Player').y;
-            //cc.log(this.node.parent);
-            this.shoot(positionXPlayer, positionYPlayer);
+            var playerPosition = this.node.parent.getChildByName('Main Game').getChildByName('Player');
+            if (playerPosition != null) {
+                var positionXPlayer = playerPosition.x;
+                var positionYPlayer = playerPosition.y;
+                this.shoot(positionXPlayer, positionYPlayer);
+            }
             this._timerShoot = 0;
         }
         if (this.maxHealth <= 0) {

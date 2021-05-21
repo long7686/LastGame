@@ -5,12 +5,7 @@ cc.Class({
     properties: {
     },
 
-    // LIFE-CYCLE CALLBACKS:
-
-    // onLoad () {},
-
     start () {
-        cc.log(this.node.y, -this.node.height)
     },
 
     update (dt) {

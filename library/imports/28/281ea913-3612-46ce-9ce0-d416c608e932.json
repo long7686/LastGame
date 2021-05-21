@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "spaceRocketParts_020",
+    "texture": "cde5856e-4c61-441c-b64b-3893b6491a41",
+    "atlas": "454bb139-a0d0-40f6-ae96-de69a7889202",
+    "rect": [
+      386,
+      85,
+      29,
+      170
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      29,
+      170
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

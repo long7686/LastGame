@@ -29,16 +29,17 @@ cc.Class({
             type: cc.SpriteFrame,
             _flag: false 
         },
+        timing: cc.Label,
+        nodeEndGame: cc.Node
     },
 
 
     onLoad () {
-        cc.Canvas.instance.node.on("mousemove", this.getMousePosition, this)
+        cc.Canvas.instance.node.on("mousemove", this.getMousePosition.bind(this))
         this.node.on("mousedown", this.shoot, this)
         cc.systemEvent.on(cc.SystemEvent.EventType.KEY_DOWN, this.onKeyDown, this);
         cc.systemEvent.on(cc.SystemEvent.EventType.KEY_UP, this.onKeyUp, this);
         this._currentSkin = this.node.getComponent(cc.Sprite)
-       
     },
 
     getMousePosition(event){
@@ -52,27 +53,29 @@ cc.Class({
     },
 
     onKeyDown(event){
-        this.spriteFrameGreen._flag = false
-        this.spriteFrameBlue._flag = false
-        this.spriteFrameRed._flag = false
-        this.spriteFrameOrange._flag = false
-        switch(event.keyCode){
-            case cc.macro.KEY.z:
-                this.spriteFrameGreen._flag = true
-                this.changeSkin()
-                break;
-            case cc.macro.KEY.x:
-                this.spriteFrameBlue._flag = true
-                this.changeSkin()
-                break;
-            case cc.macro.KEY.c:
-                this.spriteFrameRed._flag = true
-                this.changeSkin()
-                break;
-            case cc.macro.KEY.v:
-                this.spriteFrameOrange._flag = true
-                this.changeSkin()
-                break;
+        if (this.node !== null){
+            this.spriteFrameGreen._flag = false
+            this.spriteFrameBlue._flag = false
+            this.spriteFrameRed._flag = false
+            this.spriteFrameOrange._flag = false
+            switch(event.keyCode){
+                case cc.macro.KEY.z:
+                    this.spriteFrameGreen._flag = true
+                    this.changeSkin()
+                    break;
+                case cc.macro.KEY.x:
+                    this.spriteFrameBlue._flag = true
+                    this.changeSkin()
+                    break;
+                case cc.macro.KEY.c:
+                    this.spriteFrameRed._flag = true
+                    this.changeSkin()
+                    break;
+                case cc.macro.KEY.v:
+                    this.spriteFrameOrange._flag = true
+                    this.changeSkin()
+                    break;
+            }
         }
     },    
 
@@ -103,7 +106,7 @@ cc.Class({
     },
 
     onCollisionEnter(other, self){
-        if (other.node.group == "Enemies"){
+        if ((other.node.group == "Enemies")||(other.node.group == "Boss")){
             this.dead()
         }
         else if (other.node.group == "Enemies Bullet"){
@@ -112,7 +115,6 @@ cc.Class({
                 if (this.playerHealth<=0){
                     Emitter.instance.emit("healthbar",this.playerHealth)
                     this.dead()
-                    
                 }
                 else{
                     this.getDamge()
@@ -133,6 +135,12 @@ cc.Class({
     },
 
     dead(){
+        let totalTime = this.timing.getComponent('updatingTime').totalTime;
+        this.nodeEndGame.active = true;
+        Emitter.instance.emit("playerDead")
+        Emitter.instance.emit("endGame", totalTime)
         this.node.destroy()
     },
+     
+    
 });

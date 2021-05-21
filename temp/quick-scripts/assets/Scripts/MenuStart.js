@@ -9,12 +9,16 @@ cc.Class({
 
     properties: {
         startBtn: cc.Button,
-        introduction: cc.Button,
+        introduction: cc.Node,
         mainGame: cc.Node
 
     },
 
     start: function start() {},
+    onIntroClick: function onIntroClick() {
+        this.node.active = false;
+        this.introduction.active = true;
+    },
     onStartClick: function onStartClick() {
         this.node.active = false;
         this.mainGame.active = true;

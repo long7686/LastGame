@@ -1,0 +1,56 @@
+{
+  "__type__": "cc.SpriteAtlas",
+  "_name": "richText.plist",
+  "_objFlags": 0,
+  "_native": "",
+  "_spriteFrames": {
+    "Boss": {
+      "__uuid__": "ed2db887-aec4-48dc-a9da-f62e1ad64454"
+    },
+    "OrangeBullet": {
+      "__uuid__": "9f89ae2f-b653-421e-b193-c7a92f1321f6"
+    },
+    "bossBullet": {
+      "__uuid__": "e69a2c76-7003-42bd-8640-2fcf86f812f3"
+    },
+    "bulletPlayer": {
+      "__uuid__": "74bf1267-6ab0-49d6-bab1-cd4d16ff7a08"
+    },
+    "bulletThreeWay": {
+      "__uuid__": "8d6fe6c2-826d-48f4-b978-062de1d482bd"
+    },
+    "bulletVertical": {
+      "__uuid__": "926ec214-caca-47d6-877b-2ceb2031ab75"
+    },
+    "enemyBlack1": {
+      "__uuid__": "4d3731f3-2540-4c96-84c5-2b0025c840a5"
+    },
+    "laserBlue16": {
+      "__uuid__": "822fab9b-8b1e-4a43-beb7-bd47c7f8e751"
+    },
+    "laserGreen15": {
+      "__uuid__": "f284fa6e-5729-4954-9dae-f7d7b1f0ce4f"
+    },
+    "playerBlue": {
+      "__uuid__": "dab1fff6-67ec-4ed5-b0d1-27478d62faae"
+    },
+    "playerGreen": {
+      "__uuid__": "723b0ab0-be33-4bcb-a2b9-7d997127fa26"
+    },
+    "playerOrange": {
+      "__uuid__": "4c357843-d983-45a8-86d1-564d8d3fb582"
+    },
+    "playerRed": {
+      "__uuid__": "81b1824e-2bbd-4e63-895b-9b534b4d48af"
+    },
+    "spaceRocketParts_020": {
+      "__uuid__": "281ea913-3612-46ce-9ce0-d416c608e932"
+    },
+    "spaceShips_007": {
+      "__uuid__": "3b5764c1-b11b-4609-a0c6-f100c0903bed"
+    },
+    "spaceShips_009": {
+      "__uuid__": "7a94156f-65d6-4f24-adf3-c01959af89fb"
+    }
+  }
+}

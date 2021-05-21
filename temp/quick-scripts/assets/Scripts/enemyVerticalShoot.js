@@ -6,11 +6,11 @@ cc._RF.push(module, '24862NC7ShJbJubfRFpfKDn', 'enemyVerticalShoot', __filename)
 
 var Emitter = require("EventsListener");
 cc.Class({
-    extends: require("enemyNoShoot"),
+    extends: cc.Component,
 
     properties: {
-        moveToX: 0, // vị trí x bay đến
-        moveToY: 0, // vị trí y bay đến
+        moveToX: 0,
+        moveToY: 0,
         prefabBullet: cc.Prefab,
         _timerShoot: 0,
         maxHealth: 50,
@@ -61,7 +61,7 @@ cc.Class({
         }
     },
     getDamage: function getDamage() {
-        this.healthBar.getComponent(cc.ProgressBar).progress = this.maxHealth / 100;
+        this.healthBar.getComponent(cc.ProgressBar).progress = this.maxHealth / 50;
     },
     dead: function dead() {
         Emitter.instance.emit("countEnemies");
