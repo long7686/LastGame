@@ -10,22 +10,7 @@ cc.Class({
     properties: {
         _health: 100,
         _speed: 1
-    },
-
-    // LIFE-CYCLE CALLBACKS:
-
-    // onLoad () {},
-
-    start: function start() {},
-    moving: function moving() {
-        //moving theo timeline
-    },
-    onDamage: function onDamage() {
-        // animation bị damage
-    },
-    onDestroy: function onDestroy() {}
-
-    // update (dt) {},
+    }
 
 });
 

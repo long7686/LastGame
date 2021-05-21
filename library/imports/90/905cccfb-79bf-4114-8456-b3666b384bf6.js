@@ -10,6 +10,7 @@ cc.Class({
 
     properties: {
         _mousePos: cc.v2,
+        playerHealth: 100,
         _currentSkin: null,
         spriteFrameGreen: {
             default: null,
@@ -96,8 +97,25 @@ cc.Class({
             Emitter.instance.emit("skin", this.spriteFrameGreen._flag, this.spriteFrameBlue._flag, this.spriteFrameRed._flag, this.spriteFrameOrange._flag);
         }
     },
+    onCollisionEnter: function onCollisionEnter(other, self) {
+        if (other.node.group == "Enemies") {
+            this.dead();
+        } else if (other.node.group == "Enemies Bullet") {
+            other.node.destroy();
+            this.playerHealth -= 10;
+            if (this.playerHealth <= 0) {
+                Emitter.instance.emit("healthbar", this.playerHealth);
+                this.dead();
+            } else {
+                this.getDamge();
+            }
+        }
+    },
+    getDamge: function getDamge() {
+        Emitter.instance.emit("healthbar", this.playerHealth);
+    },
     dead: function dead() {
-        // play animation player dead
+        this.node.destroy();
     }
 });
 

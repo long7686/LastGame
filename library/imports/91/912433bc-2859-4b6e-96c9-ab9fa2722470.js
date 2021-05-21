@@ -9,19 +9,23 @@ cc.Class({
 
     properties: {
         _speedBullet: 1000,
-        laserGreenPre: cc.Prefab
+        laserGreenPre: cc.Prefab,
+        bulletDamge: 0
     },
 
     onLoad: function onLoad() {},
     start: function start() {
         if (this.node.name === "RedBullet") {
             this.redBulletType();
+            this.bulletDamge = 50;
         } else if (this.node.name === "OrangeBullet") {
             this.orangeBulletType();
+            this.bulletDamge = 0.5;
         } else if (this.node.name === "GreenBullet") {
             this.greenBulletType();
         } else if (this.node.name === "BlueBullet") {
             this.blueBulletType();
+            this.bulletDamge = 10;
         }
     },
     greenBulletType: function greenBulletType() {
@@ -61,8 +65,12 @@ cc.Class({
     orangeBulletType: function orangeBulletType() {
         var _this4 = this;
 
+        var collisionCircle = this.node.getComponent(cc.CircleCollider);
+        collisionCircle.enabled = false;
         this._speedBullet = 200;
-        cc.tween(this.node).by(0.5, { y: this._speedBullet, angle: -360 * 2 }).by(1, { scale: 4, angle: -360 * 2 }).by(1, { scale: -4, angle: -360 * 2, opacity: -150 }).call(function () {
+        cc.tween(this.node).by(0.5, { y: this._speedBullet, angle: -360 * 2 }).call(function () {
+            return collisionCircle.enabled = true;
+        }).by(1, { scale: 4, angle: -360 * 2 }).by(1, { scale: -4, angle: -360 * 2, opacity: -150 }).call(function () {
             return _this4.node.destroy();
         }).start();
     },
@@ -88,6 +96,34 @@ cc.Class({
         lazer4.angle = 270;
 
         this.node.destroy();
+    },
+    onCollisionEnter: function onCollisionEnter(other, self) {
+        if (self.tag != 3) {
+            this.node.destroy();
+        }
+
+        if (other.node.group === "Enemies") {
+            if (other.node.getComponent("enemyVerticalShoot") != null) {
+                other.node.getComponent("enemyVerticalShoot").maxHealth -= this.bulletDamge;
+            } else if (other.node.getComponent("enemyThreeWayShoot") != null) {
+                other.node.getComponent("enemyThreeWayShoot").maxHealth -= this.bulletDamge;
+            } else if (other.node.getComponent("enemyPlayerShoot") != null) {
+                other.node.getComponent("enemyPlayerShoot").maxHealth -= this.bulletDamge;
+            }
+        }
+    },
+    onCollisionStay: function onCollisionStay(other, self) {
+        if (self.tag === 3) {
+            if (other.node.group === "Enemies") {
+                if (other.node.getComponent("enemyVerticalShoot") != null) {
+                    other.node.getComponent("enemyVerticalShoot").maxHealth -= this.bulletDamge;
+                } else if (other.node.getComponent("enemyThreeWayShoot") != null) {
+                    other.node.getComponent("enemyThreeWayShoot").maxHealth -= this.bulletDamge;
+                } else if (other.node.getComponent("enemyPlayerShoot") != null) {
+                    other.node.getComponent("enemyPlayerShoot").maxHealth -= this.bulletDamge;
+                }
+            }
+        }
     },
     playSound: function playSound() {}
 });

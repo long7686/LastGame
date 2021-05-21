@@ -7,6 +7,7 @@ cc.Class({
         _movingRight : false,
         _movingUp : false,
         _movingLeft : false,
+        playerHealth: 100,
     },
 
     // LIFE-CYCLE CALLBACKS:

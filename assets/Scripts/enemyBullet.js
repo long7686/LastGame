@@ -19,7 +19,7 @@ cc.Class({
         this._heightCanvas = cc.Canvas.instance.node.getContentSize().height;
         if(this.threeWay === false){
             cc.tween(this.node)
-            .by(this.speed, {x:0, y: -300})
+            .by(this.speed, {x:this.bulletToX - this.node.x, y: this.bulletToY - this.node.y})
             .repeatForever().start();
         }else{
             if(this.bulletNumber === 1){

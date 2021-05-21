@@ -1,150 +1,69 @@
-2021-05-20T14:47:52.310Z - normal: Load ~/.CocosCreator/settings.json
-2021-05-20T14:47:53.689Z - normal: Initializing Asset Database
-2021-05-20T14:47:53.694Z - normal: checking language setting...
-2021-05-20T14:47:53.695Z - normal: Language: en
-2021-05-20T14:47:54.657Z - success: preview server running at http://localhost:7456
-2021-05-20T14:47:54.661Z - success: protocol editor-framework registered
-2021-05-20T14:47:54.661Z - success: protocol app registered
-2021-05-20T14:47:54.661Z - success: protocol theme registered
-2021-05-20T14:47:54.661Z - success: protocol packages registered
-2021-05-20T14:47:54.662Z - success: protocol uuid registerred
-2021-05-20T14:47:54.662Z - success: protocol db registerred
-2021-05-20T14:47:54.662Z - success: protocol thumbnail registerred
-2021-05-20T14:47:54.662Z - success: protocol unpack registerred
-2021-05-20T14:47:54.662Z - success: protocol disable-commonjs registerred
-2021-05-20T14:47:57.657Z - normal: failed to connect login server due to request timeout
-2021-05-20T14:47:57.658Z - normal: Check project C:\Users\samsung\MyGitHub\LastGame
-2021-05-20T14:47:57.660Z - normal: Initializing project C:\Users\samsung\MyGitHub\LastGame
-2021-05-20T14:47:58.127Z - normal: Initializing Cocos2d
-2021-05-20T14:47:59.213Z - normal: Initializing engine extends
-2021-05-20T14:47:59.253Z - success: alipay-adapter loaded
-2021-05-20T14:47:59.260Z - success: asset-db-debugger loaded
-2021-05-20T14:47:59.263Z - success: baidu-adapter loaded
-2021-05-20T14:47:59.266Z - success: color-picker loaded
-2021-05-20T14:47:59.425Z - success: fb-audience-network loaded
-2021-05-20T14:47:59.547Z - success: fb-live-stream loaded
-2021-05-20T14:47:59.556Z - success: google-play-instant loaded
-2021-05-20T14:47:59.563Z - success: huawei-runtime loaded
-2021-05-20T14:47:59.809Z - success: cpk-publish loaded
-2021-05-20T14:47:59.810Z - success: jsb-adapter loaded
-2021-05-20T14:47:59.816Z - success: oppo-runtime loaded
-2021-05-20T14:47:59.820Z - success: package-manager loaded
-2021-05-20T14:47:59.986Z - success: qqplay-adapter loaded
-2021-05-20T14:47:59.989Z - success: runtime-dev-tools loaded
-2021-05-20T14:47:59.994Z - success: sdkbox loaded
-2021-05-20T14:47:59.999Z - success: tester loaded
-2021-05-20T14:48:00.002Z - success: ui-kit-preview-extra loaded
-2021-05-20T14:48:00.005Z - success: ui-kit-preview loaded
-2021-05-20T14:48:00.008Z - success: ui-kit loaded
-2021-05-20T14:48:00.019Z - success: vivo-runtime loaded
-2021-05-20T14:48:00.020Z - success: weapp-adapter loaded
-2021-05-20T14:48:00.022Z - success: xiaomi-adapter loaded
-2021-05-20T14:48:00.026Z - success: alipay-minigame loaded
-2021-05-20T14:48:00.079Z - success: assets loaded
-2021-05-20T14:48:00.081Z - success: builder loaded
-2021-05-20T14:48:00.398Z - success: cocos-services loaded
-2021-05-20T14:48:00.404Z - success: console loaded
-2021-05-20T14:48:00.450Z - success: fb-instant-games loaded
-2021-05-20T14:48:00.454Z - success: game-window loaded
-2021-05-20T14:48:00.456Z - success: google-instant-games loaded
-2021-05-20T14:48:00.460Z - success: hierarchy loaded
-2021-05-20T14:48:00.463Z - success: inspector loaded
-2021-05-20T14:48:00.465Z - success: keystore loaded
-2021-05-20T14:48:00.471Z - success: node-library loaded
-2021-05-20T14:48:00.472Z - success: package-asset loaded
-2021-05-20T14:48:00.474Z - success: preferences loaded
-2021-05-20T14:48:00.475Z - success: project-exporter loaded
-2021-05-20T14:48:00.477Z - success: project-importer loaded
-2021-05-20T14:48:00.480Z - success: project-settings loaded
-2021-05-20T14:48:00.485Z - success: scene loaded
-2021-05-20T14:48:00.487Z - success: simulator-debugger loaded
-2021-05-20T14:48:00.488Z - success: sprite-editor loaded
-2021-05-20T14:48:00.491Z - success: store loaded
-2021-05-20T14:48:00.497Z - success: timeline loaded
-2021-05-20T14:48:00.502Z - success: xiaomi-runtime loaded
-2021-05-20T14:48:01.908Z - normal: Loading packages
-2021-05-20T14:48:01.923Z - normal: Watching packages
-2021-05-20T14:48:02.625Z - normal: Run Application
-2021-05-20T14:48:04.337Z - info: Cocos Services load base data!
-2021-05-20T14:53:22.641Z - warn: Script attached to "ship1" in prefab "ship1.prefab" is missing or invalid. Detailed information:
-Node path: "ship1"
-Asset url: "db://assets/Prefebs/ship1.prefab"
-Script UUID: "eedc47b5-d911-4fb3-a805-19bfd8aaf2d1"
-Class ID: "eedc4e12RFPs6gFGb/YqvLR"
-
-2021-05-20T14:57:27.266Z - warn: Script attached to "ship1" in prefab "ship1.prefab" is missing or invalid. Detailed information:
-Node path: "ship1"
-Asset url: "db://assets/Prefebs/ship1.prefab"
-Script UUID: "eedc47b5-d911-4fb3-a805-19bfd8aaf2d1"
-Class ID: "eedc4e12RFPs6gFGb/YqvLR"
-
-2021-05-20T14:59:56.038Z - info: Only the prefab node "perfabShootThreeWay" and its child nodes are saved.
-2021-05-20T15:00:16.210Z - info: Only the prefab node "prefabShootVertical" and its child nodes are saved.
-2021-05-20T15:00:16.414Z - info: Only the prefab node "prefabShootVertical" and its child nodes are saved.
-2021-05-20T15:00:57.698Z - warn: Script attached to "ship1" in prefab "ship1.prefab" is missing or invalid. Detailed information:
-Node path: "ship1"
-Asset url: "db://assets/Prefebs/ship1.prefab"
-Script UUID: "eedc47b5-d911-4fb3-a805-19bfd8aaf2d1"
-Class ID: "eedc4e12RFPs6gFGb/YqvLR"
-
-2021-05-20T15:21:45.001Z - info: Only the prefab node "prefabShootVertical" and its child nodes are saved.
-2021-05-20T15:37:36.018Z - info: Only the prefab node "prefabShootPlayer" and its child nodes are saved.
-2021-05-20T15:37:36.222Z - info: Only the prefab node "prefabShootPlayer" and its child nodes are saved.
-2021-05-20T15:49:37.395Z - info: Only the prefab node "perfabShootThreeWay" and its child nodes are saved.
-2021-05-20T15:49:37.601Z - info: Only the prefab node "perfabShootThreeWay" and its child nodes are saved.
-2021-05-20T16:00:23.299Z - warn: Script attached to "ship1" in prefab "ship1.prefab" is missing or invalid. Detailed information:
-Node path: "ship1"
-Asset url: "db://assets/Prefebs/ship1.prefab"
-Script UUID: "eedc47b5-d911-4fb3-a805-19bfd8aaf2d1"
-Class ID: "eedc4e12RFPs6gFGb/YqvLR"
-
-2021-05-20T16:03:26.902Z - warn: [db-task][import] uuid collision, the uuid(a1f70b73-bc70-4d41-af8b-d015d76e6073) for C:\Users\samsung\MyGitHub\LastGame\assets\Prefebs\enemyBullet.js is already used. A new uuid(1dfee5cd-6306-4b2f-beb0-409337c1db2a) will be assigned.
-2021-05-20T16:03:27.782Z - warn: Script attached to "ufoRed" in prefab "ufoRed.prefab" is missing or invalid. Detailed information:
-Node path: "ufoRed"
-Asset url: "db://assets/Prefebs/ufoRed.prefab"
-Script UUID: "a1f70b73-bc70-4d41-af8b-d015d76e6073"
-Class ID: "a1f70tzvHBNQa+L0BXXbmBz"
-
-2021-05-20T16:03:27.806Z - warn: Script attached to "ship1" in prefab "ship1.prefab" is missing or invalid. Detailed information:
-Node path: "ship1"
-Asset url: "db://assets/Prefebs/ship1.prefab"
-Script UUID: "eedc47b5-d911-4fb3-a805-19bfd8aaf2d1"
-Class ID: "eedc4e12RFPs6gFGb/YqvLR"
-
-2021-05-20T16:05:01.887Z - warn: Script attached to "ship1" in prefab "ship1.prefab" is missing or invalid. Detailed information:
-Node path: "ship1"
-Asset url: "db://assets/Prefebs/ship1.prefab"
-Script UUID: "eedc47b5-d911-4fb3-a805-19bfd8aaf2d1"
-Class ID: "eedc4e12RFPs6gFGb/YqvLR"
-
-2021-05-20T16:05:19.638Z - warn: Script attached to "ship1" in prefab "ship1.prefab" is missing or invalid. Detailed information:
-Node path: "ship1"
-Asset url: "db://assets/Prefebs/ship1.prefab"
-Script UUID: "eedc47b5-d911-4fb3-a805-19bfd8aaf2d1"
-Class ID: "eedc4e12RFPs6gFGb/YqvLR"
-
-2021-05-20T16:06:53.410Z - warn: Script attached to "ship1" in prefab "ship1.prefab" is missing or invalid. Detailed information:
-Node path: "ship1"
-Asset url: "db://assets/Prefebs/ship1.prefab"
-Script UUID: "eedc47b5-d911-4fb3-a805-19bfd8aaf2d1"
-Class ID: "eedc4e12RFPs6gFGb/YqvLR"
-
-2021-05-20T16:07:45.304Z - warn: Script attached to "ship1" in prefab "ship1.prefab" is missing or invalid. Detailed information:
-Node path: "ship1"
-Asset url: "db://assets/Prefebs/ship1.prefab"
-Script UUID: "eedc47b5-d911-4fb3-a805-19bfd8aaf2d1"
-Class ID: "eedc4e12RFPs6gFGb/YqvLR"
-
-2021-05-20T16:09:59.124Z - warn: Script attached to "ship1" in prefab "ship1.prefab" is missing or invalid. Detailed information:
-Node path: "ship1"
-Asset url: "db://assets/Prefebs/ship1.prefab"
-Script UUID: "eedc47b5-d911-4fb3-a805-19bfd8aaf2d1"
-Class ID: "eedc4e12RFPs6gFGb/YqvLR"
-
-2021-05-20T16:10:16.994Z - warn: Script attached to "ship1" in prefab "ship1.prefab" is missing or invalid. Detailed information:
-Node path: "ship1"
-Asset url: "db://assets/Prefebs/ship1.prefab"
-Script UUID: "eedc47b5-d911-4fb3-a805-19bfd8aaf2d1"
-Class ID: "eedc4e12RFPs6gFGb/YqvLR"
-
-2021-05-20T16:13:02.017Z - info: Only the prefab node "perfabShootThreeWay" and its child nodes are saved.
+2021-05-21T10:39:48.641Z - normal: Load ~/.CocosCreator/settings.json
+2021-05-21T10:39:48.719Z - normal: Initializing Asset Database
+2021-05-21T10:39:48.721Z - normal: checking language setting...
+2021-05-21T10:39:48.721Z - normal: Language: en
+2021-05-21T10:39:49.273Z - success: preview server running at http://localhost:7456
+2021-05-21T10:39:49.288Z - success: protocol editor-framework registered
+2021-05-21T10:39:49.288Z - success: protocol app registered
+2021-05-21T10:39:49.288Z - success: protocol theme registered
+2021-05-21T10:39:49.288Z - success: protocol packages registered
+2021-05-21T10:39:49.288Z - success: protocol uuid registerred
+2021-05-21T10:39:49.288Z - success: protocol db registerred
+2021-05-21T10:39:49.288Z - success: protocol thumbnail registerred
+2021-05-21T10:39:49.288Z - success: protocol unpack registerred
+2021-05-21T10:39:49.289Z - success: protocol disable-commonjs registerred
+2021-05-21T10:39:50.019Z - normal: connected!
+2021-05-21T10:39:50.020Z - normal: Check project /Users/gemi/Desktop/Git/LastGame
+2021-05-21T10:39:50.021Z - normal: Initializing project /Users/gemi/Desktop/Git/LastGame
+2021-05-21T10:39:50.328Z - normal: Initializing Cocos2d
+2021-05-21T10:39:50.875Z - normal: Initializing engine extends
+2021-05-21T10:39:50.906Z - success: alipay-adapter loaded
+2021-05-21T10:39:50.920Z - success: asset-db-debugger loaded
+2021-05-21T10:39:50.921Z - success: baidu-adapter loaded
+2021-05-21T10:39:50.922Z - success: color-picker loaded
+2021-05-21T10:39:51.021Z - success: fb-audience-network loaded
+2021-05-21T10:39:51.055Z - success: fb-live-stream loaded
+2021-05-21T10:39:51.057Z - success: google-play-instant loaded
+2021-05-21T10:39:51.060Z - success: huawei-runtime loaded
+2021-05-21T10:39:51.226Z - success: cpk-publish loaded
+2021-05-21T10:39:51.227Z - success: jsb-adapter loaded
+2021-05-21T10:39:51.231Z - success: oppo-runtime loaded
+2021-05-21T10:39:51.235Z - success: package-manager loaded
+2021-05-21T10:39:51.315Z - success: qqplay-adapter loaded
+2021-05-21T10:39:51.316Z - success: runtime-dev-tools loaded
+2021-05-21T10:39:51.320Z - success: sdkbox loaded
+2021-05-21T10:39:51.323Z - success: tester loaded
+2021-05-21T10:39:51.326Z - success: ui-kit-preview-extra loaded
+2021-05-21T10:39:51.328Z - success: ui-kit-preview loaded
+2021-05-21T10:39:51.331Z - success: ui-kit loaded
+2021-05-21T10:39:51.336Z - success: vivo-runtime loaded
+2021-05-21T10:39:51.337Z - success: weapp-adapter loaded
+2021-05-21T10:39:51.337Z - success: xiaomi-adapter loaded
+2021-05-21T10:39:51.339Z - success: alipay-minigame loaded
+2021-05-21T10:39:51.386Z - success: assets loaded
+2021-05-21T10:39:51.389Z - success: builder loaded
+2021-05-21T10:39:51.600Z - success: cocos-services loaded
+2021-05-21T10:39:51.606Z - success: console loaded
+2021-05-21T10:39:51.638Z - success: fb-instant-games loaded
+2021-05-21T10:39:51.642Z - success: game-window loaded
+2021-05-21T10:39:51.643Z - success: google-instant-games loaded
+2021-05-21T10:39:51.648Z - success: hierarchy loaded
+2021-05-21T10:39:51.652Z - success: inspector loaded
+2021-05-21T10:39:51.654Z - success: keystore loaded
+2021-05-21T10:39:51.659Z - success: node-library loaded
+2021-05-21T10:39:51.660Z - success: package-asset loaded
+2021-05-21T10:39:51.661Z - success: preferences loaded
+2021-05-21T10:39:51.665Z - success: project-exporter loaded
+2021-05-21T10:39:51.671Z - success: project-importer loaded
+2021-05-21T10:39:51.674Z - success: project-settings loaded
+2021-05-21T10:39:51.679Z - success: scene loaded
+2021-05-21T10:39:51.680Z - success: simulator-debugger loaded
+2021-05-21T10:39:51.681Z - success: sprite-editor loaded
+2021-05-21T10:39:51.685Z - success: store loaded
+2021-05-21T10:39:51.692Z - success: timeline loaded
+2021-05-21T10:39:51.695Z - success: xiaomi-runtime loaded
+2021-05-21T10:39:52.886Z - normal: Loading packages
+2021-05-21T10:39:52.895Z - normal: Watching packages
+2021-05-21T10:39:52.994Z - normal: Run Application
+2021-05-21T10:39:56.794Z - info: Cocos Services load base data!
+2021-05-21T11:06:14.725Z - info: shutdown preview server

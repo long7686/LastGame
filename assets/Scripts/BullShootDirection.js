@@ -4,6 +4,7 @@ cc.Class({
     properties: {
         _speedBullet: 1000,
         laserGreenPre: cc.Prefab,
+        bulletDamge :0
     },
 
     onLoad () {
@@ -13,15 +14,18 @@ cc.Class({
     start () {
         if(this.node.name === "RedBullet"){
             this.redBulletType()
+            this.bulletDamge = 50
         }
         else if(this.node.name === "OrangeBullet"){
             this.orangeBulletType()
+            this.bulletDamge = 0.5
         }
         else if(this.node.name === "GreenBullet"){
             this.greenBulletType()
         }
         else if (this.node.name === "BlueBullet"){
             this.blueBulletType()
+            this.bulletDamge = 10
         }
 
     },
@@ -62,18 +66,21 @@ cc.Class({
             .call(() => this.node.destroy())
             .start()
         }
-        
-        
     },
 
     orangeBulletType(){
+
+        let collisionCircle = this.node.getComponent(cc.CircleCollider)
+        collisionCircle.enabled = false
         this._speedBullet = 200
         cc.tween(this.node)
             .by(0.5, {y: this._speedBullet, angle:-360*2})
+            .call(()=> collisionCircle.enabled = true)
             .by(1, {scale:4,angle:-360*2})
             .by(1, {scale:-4,angle:-360*2, opacity:-150})
             .call(() => this.node.destroy())
             .start()
+
     },
 
     greenBulletAnimation(){
@@ -98,6 +105,41 @@ cc.Class({
         lazer4.angle = 270
 
         this.node.destroy()
+    },
+
+    onCollisionEnter(other, self){
+        if(self.tag != 3){
+            this.node.destroy()
+        }
+
+
+        if (other.node.group ==="Enemies"){
+             if (other.node.getComponent("enemyVerticalShoot") != null){
+                other.node.getComponent("enemyVerticalShoot").maxHealth -= this.bulletDamge
+            }
+            else if (other.node.getComponent("enemyThreeWayShoot") != null){
+                other.node.getComponent("enemyThreeWayShoot").maxHealth -= this.bulletDamge
+            }
+            else if (other.node.getComponent("enemyPlayerShoot") != null){
+                other.node.getComponent("enemyPlayerShoot").maxHealth -= this.bulletDamge
+            }   
+        }
+    },
+
+    onCollisionStay(other, self){
+        if (self.tag === 3){
+            if (other.node.group ==="Enemies"){
+                if (other.node.getComponent("enemyVerticalShoot") != null){
+                   other.node.getComponent("enemyVerticalShoot").maxHealth -= this.bulletDamge
+               }
+               else if (other.node.getComponent("enemyThreeWayShoot") != null){
+                   other.node.getComponent("enemyThreeWayShoot").maxHealth -= this.bulletDamge
+               }
+               else if (other.node.getComponent("enemyPlayerShoot") != null){
+                   other.node.getComponent("enemyPlayerShoot").maxHealth -= this.bulletDamge
+               }   
+           }
+        }
     },
 
     playSound(){
